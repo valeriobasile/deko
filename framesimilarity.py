@@ -15,8 +15,8 @@ FLAG_FRAME = "WUP"   #select algorithm for similarity between two frame types
 FLAG_ELEMENTS = "WUP" #select algorithm for similarity between two elements
 ALPHA = 0.5 #constant for main formula
 ROLE = "true"
-inputfile1 = "./example/F_instance1.nt"
-inputfile2 = "./example/F_instance2.nt"
+inputfile1 = "./examples/F_instance1.nt"
+inputfile2 = "./examples/F_instance2.nt"
 #nltk.download()
 
 
