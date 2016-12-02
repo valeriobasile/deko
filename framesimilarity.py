@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from nltk.corpus import wordnet as wn
 #import nltk
 from path import path
@@ -8,14 +10,13 @@ import sys, getopt
 
 PATH_current = path('src.py').abspath()
 PATH_Package = "/".join(PATH_current.split('/')[:-1])
-PATH_frames = PATH_Package + "/Frame_files/"
 
 FLAG_FRAME = "WUP"   #select algorithm for similarity between two frame types
 FLAG_ELEMENTS = "WUP" #select algorithm for similarity between two elements
 ALPHA = 0.5 #constant for main formula
 ROLE = "true"
-inputfile1 = "F_instance1.nt"
-inputfile2 = "F_instance2.nt"
+inputfile1 = "./example/F_instance1.nt"
+inputfile2 = "./example/F_instance2.nt"
 #nltk.download()
 
 
@@ -47,13 +48,15 @@ def main(argv):
               FLAG_ELEMENTS = arg
           elif opt in ("-r", "--role"):
               ROLE = arg
+       if len(args) >= 2:
+           inputfile1, inputfile2 = args[0:2]
 
 def load_JSON(filename):
-    with open(PATH_frames + filename) as fp:
+    with open(filename) as fp:
         return json.load(fp)
 
 def read_file(filename):
-    fp = open(PATH_frames + filename, "r")
+    fp = open(filename, "r")
     return fp.readlines()
 
 def extract_F_instance_elements(frame_instances):
@@ -180,9 +183,10 @@ def build_frame_similarities_dict(F_instance_element_dict):
     return similarity_dict
 
 def print_frame_similarities(F_instance_similarity_dict):
-    print "Printing frame instances similarities..."
+    #print "Printing frame instances similarities..."
     for key in F_instance_similarity_dict:
-        print key,":\t",F_instance_similarity_dict[key]
+#        print key,":\t",F_instance_similarity_dict[key]
+        print F_instance_similarity_dict[key]
 
 def merge(Instance_1, Instance_2):
     frame_instances = []
@@ -192,13 +196,10 @@ def merge(Instance_1, Instance_2):
 
 if __name__ == "__main__":
     main(sys.argv[1:])
-    wn31_30 = load_JSON("JSON_wn31-30.json")    # load wn31-30 dictionary
+    wn31_30 = load_JSON("map/JSON_wn31-30.json")    # load wn31-30 dictionary
     Instance_1 = read_file(inputfile1)           # read file having triples where instances separated by blank line
     Instance_2 = read_file(inputfile2)
     frame_instances = merge(Instance_1, Instance_2)
     F_instance_element_dict = extract_F_instance_elements(frame_instances) #generate dict carrying frame_instance as key and elements as values
     F_instance_similarity_dict = build_frame_similarities_dict(F_instance_element_dict)  #store similarity score between each frame instance
     print_frame_similarities(F_instance_similarity_dict)
-
-
-
