@@ -1,0 +1,7 @@
+2016-10-25 21:57:27,408.408 INFO opening file /home/avijit/INRIA/Data/DeKO_Corpus/Corpus/471_ESL_B.txt
+2016-10-25 21:57:27,408.408 INFO Tokenization
+2016-10-25 21:57:27,448.448 INFO Parsing
+2016-10-25 21:57:27,594.594 INFO Word sense disambiguation and entity linking
+2016-10-25 21:57:27,594.594 INFO Calling UKB
+2016-10-25 21:57:28,832.832 INFO No module selected for entity linking
+2016-10-25 21:57:28,837.837 INFO writing output (triples) on file /home/avijit/INRIA/Data/DeKO_Corpus/Output_test/out_471_ESL_B.nt...

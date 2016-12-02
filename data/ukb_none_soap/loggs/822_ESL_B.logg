@@ -1,0 +1,30 @@
+2016-10-25 20:21:57,570.570 INFO opening file /home/avijit/INRIA/Data/DeKO_Corpus/Corpus/822_ESL_B.txt
+2016-10-25 20:21:57,570.570 INFO Tokenization
+2016-10-25 20:21:57,623.623 INFO Parsing
+2016-10-25 20:21:57,807.807 INFO Word sense disambiguation and entity linking
+2016-10-25 20:21:57,808.808 INFO Calling UKB
+2016-10-25 20:21:59,072.072 INFO No module selected for entity linking
+2016-10-25 20:21:59,082.082 INFO No frame found for synset 02620422-v
+2016-10-25 20:21:59,082.082 INFO No frame found for synset 02620422-v
+2016-10-25 20:21:59,083.083 INFO No frame found for synset 01638974-v
+2016-10-25 20:21:59,083.083 INFO No frame found for synset 01638974-v
+2016-10-25 20:21:59,084.084 INFO No frame found for synset 00341137-a
+2016-10-25 20:21:59,085.085 INFO No frame found for synset 00341137-a
+2016-10-25 20:21:59,085.085 INFO No frame found for synset 00779976-v
+2016-10-25 20:21:59,086.086 INFO No frame found for synset 00779976-v
+2016-10-25 20:21:59,086.086 INFO No frame found for synset 01638974-v
+2016-10-25 20:21:59,086.086 INFO No frame found for synset 01638974-v
+2016-10-25 20:21:59,086.086 INFO No frame found for synset 01638974-v
+2016-10-25 20:21:59,087.087 INFO No frame found for synset 01798849-a
+2016-10-25 20:21:59,087.087 INFO No frame found for synset 01638974-v
+2016-10-25 20:21:59,087.087 INFO No frame found for synset 01638974-v
+2016-10-25 20:21:59,087.087 INFO No frame found for synset 01638974-v
+2016-10-25 20:21:59,088.088 INFO No frame found for synset 01638974-v
+2016-10-25 20:21:59,088.088 INFO No frame found for synset 00621282-v
+2016-10-25 20:21:59,088.088 INFO No frame found for synset 00621282-v
+2016-10-25 20:21:59,088.088 INFO No frame found for synset 00420808-a
+2016-10-25 20:21:59,089.089 INFO No frame found for synset 02132318-v
+2016-10-25 20:21:59,090.090 INFO No frame found for synset 01638974-v
+2016-10-25 20:21:59,090.090 INFO No frame found for synset 01638974-v
+2016-10-25 20:21:59,090.090 INFO No frame found for synset 01638974-v
+2016-10-25 20:21:59,090.090 INFO writing output (triples) on file /home/avijit/INRIA/Data/DeKO_Corpus/Output_test/out_822_ESL_B.nt...

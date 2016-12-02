@@ -1,0 +1,29 @@
+2016-10-25 19:55:54,206.206 INFO opening file /home/avijit/INRIA/Data/DeKO_Corpus/Corpus/576_ESL_B.txt
+2016-10-25 19:55:54,227.227 INFO Tokenization
+2016-10-25 19:55:54,285.285 INFO Parsing
+2016-10-25 19:55:54,535.535 INFO Word sense disambiguation and entity linking
+2016-10-25 19:55:54,535.535 INFO Calling UKB
+2016-10-25 19:55:55,837.837 INFO No module selected for entity linking
+2016-10-25 19:55:55,852.852 INFO No mapping found for synset 01298098-a
+2016-10-25 19:55:55,857.857 INFO No frame found for synset 00243558-a
+2016-10-25 19:55:55,858.858 INFO No frame found for synset 00244146-a
+2016-10-25 19:55:55,858.858 INFO No frame found for synset 00244146-a
+2016-10-25 19:55:55,858.858 INFO No frame found for synset 00243558-a
+2016-10-25 19:55:55,858.858 INFO No frame found for synset 00244146-a
+2016-10-25 19:55:55,858.858 INFO No frame found for synset 00244146-a
+2016-10-25 19:55:55,859.859 INFO No frame found for synset 02750326-v
+2016-10-25 19:55:55,859.859 INFO No frame found for synset 02750326-v
+2016-10-25 19:55:55,859.859 INFO No frame found for synset 02344167-v
+2016-10-25 19:55:55,859.859 INFO No frame found for synset 02344167-v
+2016-10-25 19:55:55,859.859 INFO No frame found for synset 02344167-v
+2016-10-25 19:55:55,860.860 INFO No frame found for synset 02344167-v
+2016-10-25 19:55:55,860.860 INFO No frame found for synset 02344167-v
+2016-10-25 19:55:55,860.860 INFO No frame found for synset 02344167-v
+2016-10-25 19:55:55,861.861 INFO No frame found for synset 00244146-a
+2016-10-25 19:55:55,861.861 INFO No frame found for synset 04431553-n
+2016-10-25 19:55:55,861.861 INFO No frame found for synset 04431553-n
+2016-10-25 19:55:55,862.862 INFO No frame found for synset 00924838-v
+2016-10-25 19:55:55,862.862 INFO No frame found for synset 00924838-v
+2016-10-25 19:55:55,862.862 INFO No frame found for synset 00924838-v
+2016-10-25 19:55:55,863.863 INFO No frame found for synset 01298098-a
+2016-10-25 19:55:55,866.866 INFO writing output (triples) on file /home/avijit/INRIA/Data/DeKO_Corpus/Output_test/out_576_ESL_B.nt...

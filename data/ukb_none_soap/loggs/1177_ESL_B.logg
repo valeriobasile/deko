@@ -1,0 +1,19 @@
+2016-10-25 20:17:43,123.123 INFO opening file /home/avijit/INRIA/Data/DeKO_Corpus/Corpus/1177_ESL_B.txt
+2016-10-25 20:17:43,123.123 INFO Tokenization
+2016-10-25 20:17:43,180.180 INFO Parsing
+2016-10-25 20:17:43,356.356 INFO Word sense disambiguation and entity linking
+2016-10-25 20:17:43,356.356 INFO Calling UKB
+2016-10-25 20:17:44,619.619 INFO No module selected for entity linking
+2016-10-25 20:17:44,626.626 INFO No mapping found for synset 00987524-a
+2016-10-25 20:17:44,628.628 INFO No mapping found for synset 01140878-a
+2016-10-25 20:17:44,630.630 INFO No frame found for synset 01779085-v
+2016-10-25 20:17:44,631.631 INFO No frame found for synset 01798849-a
+2016-10-25 20:17:44,631.631 INFO No frame found for synset 00987524-a
+2016-10-25 20:17:44,632.632 INFO No frame found for synset 00541016-v
+2016-10-25 20:17:44,632.632 INFO No frame found for synset 00541016-v
+2016-10-25 20:17:44,633.633 INFO No frame found for synset 00621282-v
+2016-10-25 20:17:44,633.633 INFO No frame found for synset 00614532-v
+2016-10-25 20:17:44,633.633 INFO No frame found for synset 01140878-a
+2016-10-25 20:17:44,633.633 INFO No frame found for synset 00614532-v
+2016-10-25 20:17:44,634.634 INFO No frame found for synset 00614532-v
+2016-10-25 20:17:44,634.634 INFO writing output (triples) on file /home/avijit/INRIA/Data/DeKO_Corpus/Output_test/out_1177_ESL_B.nt...

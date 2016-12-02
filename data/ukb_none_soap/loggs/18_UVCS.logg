@@ -1,0 +1,29 @@
+2016-10-25 20:44:00,844.844 INFO opening file /home/avijit/INRIA/Data/DeKO_Corpus/Corpus/18_UVCS.txt
+2016-10-25 20:44:00,857.857 INFO Tokenization
+2016-10-25 20:44:00,895.895 INFO Parsing
+2016-10-25 20:44:01,104.104 INFO Word sense disambiguation and entity linking
+2016-10-25 20:44:01,105.105 INFO Calling UKB
+2016-10-25 20:44:02,293.293 INFO No module selected for entity linking
+2016-10-25 20:44:02,302.302 INFO No mapping found for synset 02542870-a
+2016-10-25 20:44:02,304.304 INFO No frame found for synset 01161269-a
+2016-10-25 20:44:02,304.304 INFO No frame found for synset 00356019-v
+2016-10-25 20:44:02,304.304 INFO No frame found for synset 00356019-v
+2016-10-25 20:44:02,304.304 INFO No frame found for synset 02125976-v
+2016-10-25 20:44:02,304.304 INFO No frame found for synset 02125976-v
+2016-10-25 20:44:02,305.305 INFO No frame found for synset 02620422-v
+2016-10-25 20:44:02,305.305 INFO No frame found for synset 02620422-v
+2016-10-25 20:44:02,305.305 INFO No frame found for synset 00094214-v
+2016-10-25 20:44:02,306.306 INFO No frame found for synset 00094214-v
+2016-10-25 20:44:02,306.306 INFO No frame found for synset 02542870-a
+2016-10-25 20:44:02,306.306 INFO No frame found for synset 00094214-v
+2016-10-25 20:44:02,306.306 INFO No frame found for synset 02565710-a
+2016-10-25 20:44:02,306.306 INFO No frame found for synset 00001740-a
+2016-10-25 20:44:02,306.306 INFO No frame found for synset 01182162-v
+2016-10-25 20:44:02,306.306 INFO No frame found for synset 01182162-v
+2016-10-25 20:44:02,306.306 INFO No frame found for synset 00598039-v
+2016-10-25 20:44:02,307.307 INFO No frame found for synset 00094214-v
+2016-10-25 20:44:02,307.307 INFO No frame found for synset 00094214-v
+2016-10-25 20:44:02,307.307 INFO No frame found for synset 00598039-v
+2016-10-25 20:44:02,307.307 INFO No frame found for synset 00094214-v
+2016-10-25 20:44:02,307.307 INFO No frame found for synset 00094214-v
+2016-10-25 20:44:02,307.307 INFO writing output (triples) on file /home/avijit/INRIA/Data/DeKO_Corpus/Output_test/out_18_UVCS.nt...

@@ -1,0 +1,27 @@
+2016-10-25 21:04:48,914.914 INFO opening file /home/avijit/INRIA/Data/DeKO_Corpus/Corpus/1161_ESL_B.txt
+2016-10-25 21:04:48,961.961 INFO Tokenization
+2016-10-25 21:04:49,040.040 INFO Parsing
+2016-10-25 21:04:49,328.328 INFO Word sense disambiguation and entity linking
+2016-10-25 21:04:49,328.328 INFO Calling UKB
+2016-10-25 21:04:50,561.561 INFO No module selected for entity linking
+2016-10-25 21:04:50,575.575 INFO No mapping found for synset 02406317-a
+2016-10-25 21:04:50,578.578 INFO No mapping found for synset 02139604-a
+2016-10-25 21:04:50,580.580 INFO No frame found for synset 01821123-a
+2016-10-25 21:04:50,581.581 INFO No frame found for synset 02139604-a
+2016-10-25 21:04:50,582.582 INFO No frame found for synset 00890750-v
+2016-10-25 21:04:50,582.582 INFO No frame found for synset 02588127-v
+2016-10-25 21:04:50,583.583 INFO No frame found for synset 02588127-v
+2016-10-25 21:04:50,583.583 INFO No frame found for synset 02588127-v
+2016-10-25 21:04:50,583.583 INFO No frame found for synset 02120601-v
+2016-10-25 21:04:50,583.583 INFO No frame found for synset 02120601-v
+2016-10-25 21:04:50,583.583 INFO No frame found for synset 02128137-v
+2016-10-25 21:04:50,584.584 INFO No frame found for synset 00004819-v
+2016-10-25 21:04:50,585.585 INFO No frame found for synset 01173463-v
+2016-10-25 21:04:50,585.585 INFO No frame found for synset 01173463-v
+2016-10-25 21:04:50,585.585 INFO No frame found for synset 01173463-v
+2016-10-25 21:04:50,585.585 INFO No frame found for synset 00747485-v
+2016-10-25 21:04:50,586.586 INFO No frame found for synset 00747485-v
+2016-10-25 21:04:50,586.586 INFO No frame found for synset 01173463-v
+2016-10-25 21:04:50,586.586 INFO No frame found for synset 01173463-v
+2016-10-25 21:04:50,586.586 INFO No frame found for synset 01173463-v
+2016-10-25 21:04:50,587.587 INFO writing output (triples) on file /home/avijit/INRIA/Data/DeKO_Corpus/Output_test/out_1161_ESL_B.nt...

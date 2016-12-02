@@ -1,0 +1,57 @@
+2016-10-25 20:36:40,147.147 INFO opening file /home/avijit/INRIA/Data/DeKO_Corpus/Corpus/1336_ESL_I.txt
+2016-10-25 20:36:40,147.147 INFO Tokenization
+2016-10-25 20:36:40,252.252 INFO Parsing
+2016-10-25 20:36:40,913.913 INFO Word sense disambiguation and entity linking
+2016-10-25 20:36:40,913.913 INFO Calling UKB
+2016-10-25 20:36:42,311.311 INFO No module selected for entity linking
+2016-10-25 20:36:42,332.332 INFO No mapping found for synset 02340696-a
+2016-10-25 20:36:42,332.332 INFO No mapping found for synset 00454916-a
+2016-10-25 20:36:42,334.334 INFO No mapping found for synset 02511965-a
+2016-10-25 20:36:42,336.336 INFO No mapping found for synset 01470834-a
+2016-10-25 20:36:42,336.336 INFO No mapping found for synset 02511965-a
+2016-10-25 20:36:42,337.337 INFO No mapping found for synset 00488278-a
+2016-10-25 20:36:42,337.337 INFO No frame found for synset 02340696-a
+2016-10-25 20:36:42,337.337 INFO No frame found for synset 01771841-a
+2016-10-25 20:36:42,337.337 INFO No frame found for synset 02269560-v
+2016-10-25 20:36:42,338.338 INFO No frame found for synset 00388736-v
+2016-10-25 20:36:42,338.338 INFO No frame found for synset 00094214-v
+2016-10-25 20:36:42,338.338 INFO No frame found for synset 00062066-r
+2016-10-25 20:36:42,338.338 INFO No frame found for synset 00062066-r
+2016-10-25 20:36:42,339.339 INFO No frame found for synset 00414120-v
+2016-10-25 20:36:42,339.339 INFO No frame found for synset 02271905-v
+2016-10-25 20:36:42,339.339 INFO No frame found for synset 02729233-a
+2016-10-25 20:36:42,339.339 INFO No frame found for synset 01661207-v
+2016-10-25 20:36:42,339.339 INFO No frame found for synset 01661207-v
+2016-10-25 20:36:42,340.340 INFO No frame found for synset 00094214-v
+2016-10-25 20:36:42,340.340 INFO No frame found for synset 00094214-v
+2016-10-25 20:36:42,340.340 INFO No frame found for synset 00094214-v
+2016-10-25 20:36:42,340.340 INFO No frame found for synset 00454916-a
+2016-10-25 20:36:42,340.340 INFO No frame found for synset 04431553-n
+2016-10-25 20:36:42,340.340 INFO No frame found for synset 00112352-r
+2016-10-25 20:36:42,341.341 INFO No frame found for synset 01470834-a
+2016-10-25 20:36:42,342.342 INFO No frame found for synset 00488278-a
+2016-10-25 20:36:42,343.343 INFO No frame found for synset 00446553-a
+2016-10-25 20:36:42,343.343 INFO No frame found for synset 00446553-a
+2016-10-25 20:36:42,343.343 INFO No frame found for synset 00446553-a
+2016-10-25 20:36:42,344.344 INFO No frame found for synset 02511965-a
+2016-10-25 20:36:42,344.344 INFO No frame found for synset 02511965-a
+2016-10-25 20:36:42,344.344 INFO No frame found for synset 02511965-a
+2016-10-25 20:36:42,344.344 INFO No frame found for synset 02511965-a
+2016-10-25 20:36:42,344.344 INFO No frame found for synset 00446553-a
+2016-10-25 20:36:42,344.344 INFO No frame found for synset 00446553-a
+2016-10-25 20:36:42,344.344 INFO No frame found for synset 00446553-a
+2016-10-25 20:36:42,344.344 INFO No frame found for synset 02511965-a
+2016-10-25 20:36:42,345.345 INFO No frame found for synset 02511965-a
+2016-10-25 20:36:42,345.345 INFO No frame found for synset 02511965-a
+2016-10-25 20:36:42,345.345 INFO No frame found for synset 02511965-a
+2016-10-25 20:36:42,345.345 INFO No frame found for synset 02858779-a
+2016-10-25 20:36:42,345.345 INFO No frame found for synset 00329612-v
+2016-10-25 20:36:42,345.345 INFO No frame found for synset 00329612-v
+2016-10-25 20:36:42,346.346 INFO No frame found for synset 02290474-v
+2016-10-25 20:36:42,346.346 INFO No frame found for synset 00094214-v
+2016-10-25 20:36:42,346.346 INFO No frame found for synset 00647205-v
+2016-10-25 20:36:42,346.346 INFO No frame found for synset 02943898-a
+2016-10-25 20:36:42,346.346 INFO No frame found for synset 00647205-v
+2016-10-25 20:36:42,346.346 INFO No frame found for synset 02132318-v
+2016-10-25 20:36:42,346.346 INFO No frame found for synset 02132318-v
+2016-10-25 20:36:42,346.346 INFO writing output (triples) on file /home/avijit/INRIA/Data/DeKO_Corpus/Output_test/out_1336_ESL_I.nt...

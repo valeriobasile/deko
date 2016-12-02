@@ -1,0 +1,30 @@
+2016-10-25 20:00:53,620.620 INFO opening file /home/avijit/INRIA/Data/DeKO_Corpus/Corpus/25_UVCS.txt
+2016-10-25 20:00:53,637.637 INFO Tokenization
+2016-10-25 20:00:53,671.671 INFO Parsing
+2016-10-25 20:00:53,864.864 INFO Word sense disambiguation and entity linking
+2016-10-25 20:00:53,864.864 INFO Calling UKB
+2016-10-25 20:00:55,016.016 INFO No module selected for entity linking
+2016-10-25 20:00:55,028.028 INFO No mapping found for synset 01298098-a
+2016-10-25 20:00:55,029.029 INFO No frame found for synset 02351720-v
+2016-10-25 20:00:55,029.029 INFO No frame found for synset 02351720-v
+2016-10-25 20:00:55,030.030 INFO No frame found for synset 02351720-v
+2016-10-25 20:00:55,030.030 INFO No frame found for synset 02351720-v
+2016-10-25 20:00:55,030.030 INFO No frame found for synset 01298098-a
+2016-10-25 20:00:55,030.030 INFO No frame found for synset 01298098-a
+2016-10-25 20:00:55,030.030 INFO No frame found for synset 01298098-a
+2016-10-25 20:00:55,030.030 INFO No frame found for synset 02329474-v
+2016-10-25 20:00:55,030.030 INFO No frame found for synset 02329474-v
+2016-10-25 20:00:55,030.030 INFO No frame found for synset 02329474-v
+2016-10-25 20:00:55,031.031 INFO No frame found for synset 02329474-v
+2016-10-25 20:00:55,032.032 INFO No frame found for synset 02329474-v
+2016-10-25 20:00:55,032.032 INFO No frame found for synset 02329474-v
+2016-10-25 20:00:55,032.032 INFO No frame found for synset 02329474-v
+2016-10-25 20:00:55,033.033 INFO No frame found for synset 02329474-v
+2016-10-25 20:00:55,033.033 INFO No frame found for synset 02132318-v
+2016-10-25 20:00:55,033.033 INFO No frame found for synset 02132318-v
+2016-10-25 20:00:55,034.034 INFO No frame found for synset 02132318-v
+2016-10-25 20:00:55,034.034 INFO No frame found for synset 02204104-v
+2016-10-25 20:00:55,034.034 INFO No frame found for synset 02204104-v
+2016-10-25 20:00:55,035.035 INFO No frame found for synset 02204104-v
+2016-10-25 20:00:55,035.035 INFO No frame found for synset 02204104-v
+2016-10-25 20:00:55,036.036 INFO writing output (triples) on file /home/avijit/INRIA/Data/DeKO_Corpus/Output_test/out_25_UVCS.nt...

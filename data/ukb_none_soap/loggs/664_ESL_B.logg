@@ -1,0 +1,6 @@
+2016-10-25 21:51:11,973.973 INFO opening file /home/avijit/INRIA/Data/DeKO_Corpus/Corpus/664_ESL_B.txt
+2016-10-25 21:51:11,990.990 INFO Tokenization
+2016-10-25 21:51:12,069.069 INFO Parsing
+2016-10-25 21:51:12,337.337 ERROR cannot read Boxer XML
+2016-10-25 21:51:12,337.337 ERROR error during the execution of Boxer on file '/home/avijit/INRIA/Data/DeKO_Corpus/Corpus/664_ESL_B.txt', exiting
+2016-10-25 21:51:12,337.337 INFO writing output (triples) on file /home/avijit/INRIA/Data/DeKO_Corpus/Output_test/out_664_ESL_B.nt...
