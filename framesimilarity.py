@@ -1,13 +1,9 @@
 #!/usr/bin/env python
 
 from nltk.corpus import wordnet as wn
-from path import path
 import json
 import re
 import sys, getopt
-
-PATH_current = path('src.py').abspath()
-PATH_Package = "/".join(PATH_current.split('/')[:-1])
 
 FLAG_FRAME = "WUP"   #select algorithm for similarity between two frame types
 FLAG_ELEMENTS = "WUP" #select algorithm for similarity between two elements
