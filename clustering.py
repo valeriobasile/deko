@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 from nltk.corpus import wordnet as wn
-# import nltk
-from path import path
+#import nltk
+#from path import path
 import json
 import re
 import sys, getopt
@@ -15,8 +15,8 @@ import time
 import scipy
 
 
-PATH_current = path('src.py').abspath()
-PATH_Package = "/".join(PATH_current.split('/')[:-1])
+#PATH_current = path('src.py').abspath()
+#PATH_Package = "/".join(PATH_current.split('/')[:-1])
 
 FLAG_FRAME = "WUP"  # select algorithm for similarity between two frame types
 FLAG_ELEMENTS = "WUP"  # select algorithm for similarity between two elements
@@ -25,7 +25,7 @@ ROLE = "false"
 clustering_method = "weighted"
 DISTANCE = 1
 inputfile = "./samples/test_sample1.nt"
-# nltk.download()
+#nltk.download()
 
 unmapped_keys = set()  # those occur in any input instance
 
