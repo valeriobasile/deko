@@ -1,20 +1,27 @@
 #!/usr/bin/env python
 
 from nltk.corpus import wordnet as wn
+
 import json
 import re
 import sys, getopt
 
+
 FLAG_FRAME = "WUP"   #select algorithm for similarity between two frame types
 FLAG_ELEMENTS = "WUP" #select algorithm for similarity between two elements
 ALPHA = 0.5 #constant for main formula
-ROLE = "true"
+ROLE = "false"
+inputfile1 = "./examples/F_instance1.nt"
+inputfile2 = "./examples/F_instance2.nt"
+#nltk.download()
+
 
 unmapped_keys = set()    #those occur in any input instance
 
 def help():
     print sys.argv[0] + ' [-a <alpha value>] [-t <Frame_similarity_Algo>] [-e <element_similarity_Algo>] [-r <true,false>] <inputfile1> <inputfile2>'
     sys.exit(2)
+	
 
 def main(argv):
        global inputfile1
@@ -26,10 +33,12 @@ def main(argv):
        try:
           opts, args = getopt.getopt(argv,"hi:I:a:t:e:r:",["ifile1=","ifile2=","alpha=","F_Sim_Algo=","E_Sim_Algo=","role="])
        except getopt.GetoptError:
-           help()
+          help()
+		
        for opt, arg in opts:
           if opt == '-h':
-              help()
+             help()
+	
           elif opt in ("-i", "--ifile1"):
              inputfile1 = arg
           elif opt in ("-I", "--ifile2"):
@@ -113,12 +122,12 @@ def find_similarity_frames(frameType1_offset, elements1_offsets_role, frameType2
             el_F2 = el_r_F2[0]
             r_F2 = el_r_F2[1]
             if(ROLE == "false"):
-                if(FLAG_ELEMENTS == "WUP"):
+                if(FLAG_ELEMENTS == "WUP"):                    
 			similarity_element = WUP_similarity(el_F1, el_F2)
                 # Add other conditions and respective similarity calculating functions
             elif(ROLE == "true"):
                 if(r_F1 == r_F2):
-                    if(FLAG_ELEMENTS == "WUP"):
+                    if(FLAG_ELEMENTS == "WUP"):                       
 			similarity_element = WUP_similarity(el_F1, el_F2)
                     # Add other conditions and respective similarity calculating functions
                 else:
@@ -134,11 +143,11 @@ def find_similarity_frames(frameType1_offset, elements1_offsets_role, frameType2
 
     #print "Calculating Right2left_elements_similarities..."
     sum_similarity = 0
-    for el_F2 in elements2_synsets_role:
+    for el_r_F2 in elements2_synsets_role:
         max_similarity = 0
         el_F2 = el_r_F2[0]
         r_F2 = el_r_F2[1]
-        for el_F1 in elements1_synsets_role:
+        for el_r_F1 in elements1_synsets_role:
             el_F1 = el_r_F1[0]
             r_F1 = el_r_F1[1]
             if (ROLE == "false"):
@@ -155,7 +164,7 @@ def find_similarity_frames(frameType1_offset, elements1_offsets_role, frameType2
             #print "similarity between", el_F2, el_F1,":\t", similarity_element
             if (similarity_element > max_similarity):
                 max_similarity = similarity_element
-        #print "max_similarity for",el_F1,":\t", max_similarity
+        #print "max_similarity for",el_F2,":\t", max_similarity
         sum_similarity = max_similarity + sum_similarity
     avg_similarity_2 = sum_similarity / len(elements2_synsets_role)
     #print "avg_similarity_R2L:\t", avg_similarity_2
@@ -163,6 +172,8 @@ def find_similarity_frames(frameType1_offset, elements1_offsets_role, frameType2
     avg_similarity = (avg_similarity_1 + avg_similarity_2)/2
     #print "Avg_both_sides_similarities:\t", avg_similarity
 
+    if(similarity_F_types == None):
+        similarity_F_types = 0
     similarity_Frames = ALPHA*(similarity_F_types) + (1-ALPHA)*(avg_similarity)
     #print "FType_similarity\t", synset_F1, synset_F2, ":\t", similarity_F_types
     #print "Similarity Frame instance:", similarity_Frames
@@ -170,7 +181,7 @@ def find_similarity_frames(frameType1_offset, elements1_offsets_role, frameType2
 
 def build_frame_similarities_dict(F_instance_element_dict):
     similarity_dict = {}
-    i=-1
+    i=-1 
     for key in F_instance_element_dict:
         #frame1_name = str(key.split("_")[0])
         frameType1_offset = str(key.split("_")[-1])
@@ -185,7 +196,7 @@ def build_frame_similarities_dict(F_instance_element_dict):
             frame_instance1 = "_".join(key.split("_")[:-1])
             frame_instance2 = "_".join(key2.split("_")[:-1])
             Frame_instance_pair = frame_instance1 + "\t" + frame_instance2
-	    if(len(F_instance_element_dict)==1):
+	    if(len(F_instance_element_dict)==1):                           
 		similarity_dict[Frame_instance_pair] = find_similarity_frames(frameType1_offset, elements1_offsets_roles, frameType2_offset, elements2_offsets_roles, wn31_30)
             elif(len(F_instance_element_dict)!=1 and (i!=j) and frame_instance2 + "\t" + frame_instance1 not in similarity_dict):
                 #print "Calculating Frame instance similarity between\n", key,"\t",key2
@@ -193,10 +204,14 @@ def build_frame_similarities_dict(F_instance_element_dict):
     return similarity_dict
 
 def print_frame_similarities(F_instance_similarity_dict):
-    for key in F_instance_similarity_dict:
-        if (len(unmapped_keys) > 0):
-            sys.stderr.write("unmapped keys: {0}\n".format(', '.join(unmapped_keys)))
-        print F_instance_similarity_dict[key]
+    #print "Printing frame instances similarities..."
+    for key in F_instance_similarity_dict:       
+	print F_instance_similarity_dict[key]
+    if(len(unmapped_keys)>0):
+	print "unmapped keys:\t",
+	for i in unmapped_keys:
+		print i,"\t" 
+	
 
 def merge(Instance_1, Instance_2):
     frame_instances = []
@@ -213,3 +228,4 @@ if __name__ == "__main__":
     F_instance_element_dict = extract_F_instance_elements(frame_instances) #generate dict carrying frame_instance as key and elements as values
     F_instance_similarity_dict = build_frame_similarities_dict(F_instance_element_dict)  #store similarity score between each frame instance
     print_frame_similarities(F_instance_similarity_dict)
+

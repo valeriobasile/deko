@@ -23,4 +23,7 @@ g. clustering distance(-d) : 1
 
 5. Print statements are kept uncommented initially for better understanding of new user while running the code for the first time with smallest sample i.e "test_sample1.nt.". Comment the unwanted print statement in the code for final running on bigger sample to reduce the running time.  
 
+IMPORTANT: also uncomment "nltk.download()"--->run the code----> select corpora tab ------> download wordnet
+This step you need to do only one time... once it is downloaded while running first time, then uncomment it again else it will keep asking to download on every run. I will update this in the readme file as well.
+
 
