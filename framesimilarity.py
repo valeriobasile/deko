@@ -227,5 +227,5 @@ if __name__ == "__main__":
     frame_instances = merge(Instance_1, Instance_2)
     F_instance_element_dict = extract_F_instance_elements(frame_instances) #generate dict carrying frame_instance as key and elements as values
     F_instance_similarity_dict = build_frame_similarities_dict(F_instance_element_dict)  #store similarity score between each frame instance
-    print_frame_similarities(F_instance_similarity_dict)
+#    print_frame_similarities(F_instance_similarity_dict)
 

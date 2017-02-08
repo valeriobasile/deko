@@ -124,20 +124,20 @@ def WUP_similarity(ss1, ss2):
 
 def find_similarity_frames(frameType1_offset, elements1_offsets_role, frameType2_offset, elements2_offsets_role,
                            wn31_30):
-    print "Frame type synsets:"
+#    print "Frame type synsets:"
     synset_F1 = offset2ss(frameType1_offset, wn31_30)
     synset_F2 = offset2ss(frameType2_offset, wn31_30)
     if FLAG_FRAME == "WUP":
         similarity_F_types = WUP_similarity(synset_F1, synset_F2)
-        print "simialrity F type", synset_F1, synset_F2, similarity_F_types
+#        print "simialrity F type", synset_F1, synset_F2, similarity_F_types
         # Add other conditions and respective similarity calculating functions
-    print "Elemnents_synsets:"
+#    print "Elemnents_synsets:"
     elements1_synsets_role = [(offset2ss(element[0], wn31_30), element[1]) for element in elements1_offsets_role]
     elements2_synsets_role = [(offset2ss(element[0], wn31_30), element[1]) for element in elements2_offsets_role]
-    print "elements1_synsets:\t", elements1_synsets_role
-    print "elements2_synsets:\t",elements2_synsets_role
+#    print "elements1_synsets:\t", elements1_synsets_role
+#    print "elements2_synsets:\t",elements2_synsets_role
     # bipartitie, thus do both ways
-    print "Calculating Left2Right_elements_similarities..."
+#    print "Calculating Left2Right_elements_similarities..."
     sum_similarity = 0
     for el_r_F1 in elements1_synsets_role:
         max_similarity = 0
@@ -158,15 +158,15 @@ def find_similarity_frames(frameType1_offset, elements1_offsets_role, frameType2
                 else:
                     similarity_element = 0
 
-            print "similarity between",el_F1,el_F2,":\t",similarity_element
+#            print "similarity between",el_F1,el_F2,":\t",similarity_element
             if (similarity_element > max_similarity):
                 max_similarity = similarity_element
-        print "max_similarity for",el_F1,":\t", max_similarity
+#        print "max_similarity for",el_F1,":\t", max_similarity
         sum_similarity = max_similarity + sum_similarity
     avg_similarity_1 = sum_similarity / len(elements1_synsets_role)
-    print "avg_similarity_L2R:\t", avg_similarity_1
+#    print "avg_similarity_L2R:\t", avg_similarity_1
 
-    print "Calculating Right2left_elements_similarities..."
+#    print "Calculating Right2left_elements_similarities..."
     sum_similarity = 0
     for el_r_F2 in elements2_synsets_role:
         max_similarity = 0
@@ -186,23 +186,23 @@ def find_similarity_frames(frameType1_offset, elements1_offsets_role, frameType2
                         # Add other conditions and respective similarity calculating functions
                 else:
                     similarity_element = 0
-            print "similarity between", el_F2, el_F1,":\t", similarity_element
+#            print "similarity between", el_F2, el_F1,":\t", similarity_element
             if (similarity_element > max_similarity):
                 max_similarity = similarity_element
-        print "max_similarity for",el_F2,":\t", max_similarity
+#        print "max_similarity for",el_F2,":\t", max_similarity
         sum_similarity = max_similarity + sum_similarity
     avg_similarity_2 = sum_similarity / len(elements2_synsets_role)
-    print "avg_similarity_R2L:\t", avg_similarity_2
+#    print "avg_similarity_R2L:\t", avg_similarity_2
 
     avg_similarity = (avg_similarity_1 + avg_similarity_2) / 2
-    print "Avg_both_sides_similarities:\t", avg_similarity
+#    print "Avg_both_sides_similarities:\t", avg_similarity
     if (similarity_F_types is None):
         similarity_F_types = 0.0
     if (avg_similarity is None):
         avg_similarity = 0.0
     similarity_Frames = ALPHA * (similarity_F_types) + (1 - ALPHA) * (avg_similarity)
-    print "FType_similarity\t", synset_F1, synset_F2, ":\t", similarity_F_types
-    print "Similarity Frame instance:", similarity_Frames,"\n"
+#    print "FType_similarity\t", synset_F1, synset_F2, ":\t", similarity_F_types
+#    print "Similarity Frame instance:", similarity_Frames,"\n"
     return similarity_Frames
 
 
@@ -243,6 +243,8 @@ def build_frame_distance_matrix(F_instance_element_dict):
     count = -1
     condensed_vector = []
     for i,key in enumerate(F_instance_element_tuple):
+        progress = (float(i+1)*100.0)/ float(len(F_instance_element_tuple))
+        sys.stderr.write('{0:.3f}%\t({1}/{2})\r'.format(progress, i+1, len(F_instance_element_tuple)))
         # frame1_name = str(key.split("_")[0])
         frameType1_offset = key[0].split("_")[-1]
         elements1_offsets_roles = key[1]
