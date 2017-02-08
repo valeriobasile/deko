@@ -26,8 +26,18 @@ clustering_method = "weighted"
 DISTANCE = 1
 inputfile = "./samples/test_sample1.nt"
 #nltk.download()
+CACHE = True
 
 unmapped_keys = set()  # those occur in any input instance
+
+if CACHE:
+    sys.stderr.write('reading similarity cache...\n')
+    synset_similarity_matrix = dict()
+    with open('synset_similarity_matrix.txt') as f:
+        for line in f:
+            sim, s1, s2 = line.rstrip().split(' ')
+            synset_similarity_matrix[(s1,s2)]=sim
+            synset_similarity_matrix[(s2,s1)]=sim
 
 def main(argv):
     global inputfile
@@ -49,7 +59,7 @@ def main(argv):
             sys.exit()
         elif opt in ("-i", "--ifile"):
             inputfile = arg
-            print inputfile
+            #print inputfile
         elif opt in ("-a", "--alpha"):
             ALPHA = float(arg)
         elif opt in ("-t", "--F_Sim_Algo"):
@@ -94,10 +104,11 @@ def extract_F_instance_elements(frame_instances):
             F_instance_offset = F_instance[0] + "_" + F_offset
             frame_dict[F_instance_offset] = (F_elements_roles)
         except:
-            print
+            pass
+            #print
             #print F_instance, "reg ex error caught"
     # print "Frame_instance-elements Dictionary:\n",frame_dict,"\n"
-    print "Frame instance and elements' extraction successful..... dictionary ready"
+    #print "Frame instance and elements' extraction successful..... dictionary ready"
     return frame_dict
 
 
@@ -116,7 +127,7 @@ def offset2ss(offset_31, wn_31_30):
     return synset
 
 
-def WUP_similarity(ss1, ss2):
+def WUP_similarity(ss1, ss2, cache=False):
     if (ss1 is None or ss2 is None):  # due to mapping issue b/w wn3.1 and wn3.2
         return 0.0
     return wn.wup_similarity(ss1, ss2)
@@ -128,7 +139,7 @@ def find_similarity_frames(frameType1_offset, elements1_offsets_role, frameType2
     synset_F1 = offset2ss(frameType1_offset, wn31_30)
     synset_F2 = offset2ss(frameType2_offset, wn31_30)
     if FLAG_FRAME == "WUP":
-        similarity_F_types = WUP_similarity(synset_F1, synset_F2)
+        similarity_F_types = WUP_similarity(synset_F1, synset_F2, CACHE)
 #        print "simialrity F type", synset_F1, synset_F2, similarity_F_types
         # Add other conditions and respective similarity calculating functions
 #    print "Elemnents_synsets:"
@@ -146,18 +157,22 @@ def find_similarity_frames(frameType1_offset, elements1_offsets_role, frameType2
         for el_r_F2 in elements2_synsets_role:
             el_F2 = el_r_F2[0]
             r_F2 = el_r_F2[1]
+
+            #print el_F1, el_F1.min_depth(), el_F1.max_depth()
+            #print el_F2, el_F2.min_depth(), el_F2.max_depth()
+
             if (ROLE == "false"):
                 if (FLAG_ELEMENTS == "WUP"):
-                    similarity_element = WUP_similarity(el_F1, el_F2)
+                    similarity_element = WUP_similarity(el_F1, el_F2, CACHE)
                     # Add other conditions and respective similarity calculating functions
             elif (ROLE == "true"):
                 if (r_F1 == r_F2):
                     if (FLAG_ELEMENTS == "WUP"):
-                        similarity_element = WUP_similarity(el_F1, el_F2)
+                        similarity_element = WUP_similarity(el_F1, el_F2, CACHE)
                         # Add other conditions and respective similarity calculating functions
                 else:
                     similarity_element = 0
-
+            #print similarity_element
 #            print "similarity between",el_F1,el_F2,":\t",similarity_element
             if (similarity_element > max_similarity):
                 max_similarity = similarity_element
@@ -177,12 +192,12 @@ def find_similarity_frames(frameType1_offset, elements1_offsets_role, frameType2
             r_F1 = el_r_F1[1]
             if (ROLE == "false"):
                 if (FLAG_ELEMENTS == "WUP"):
-                    similarity_element = WUP_similarity(el_F1, el_F2)
+                    similarity_element = WUP_similarity(el_F1, el_F2, CACHE)
                     #Add other conditions and respective similarity calculating functions
             elif (ROLE == "true"):
                 if (r_F1 == r_F2):
                     if (FLAG_ELEMENTS == "WUP"):
-                        similarity_element = WUP_similarity(el_F1, el_F2)
+                        similarity_element = WUP_similarity(el_F1, el_F2, CACHE)
                         # Add other conditions and respective similarity calculating functions
                 else:
                     similarity_element = 0
@@ -236,7 +251,7 @@ def triples_frame_instances(triples):
 
 
 def build_frame_distance_matrix(F_instance_element_dict):
-    print "building distance matrix...."
+    #print "building distance matrix...."
     Dist_Matrix = np.zeros(shape=(len(F_instance_element_dict), len(F_instance_element_dict))) #empty when printed shoes exponent val
     F_instance_element_tuple = F_instance_element_dict.items()
     frame_instance_index_dict = {}
@@ -245,6 +260,7 @@ def build_frame_distance_matrix(F_instance_element_dict):
     for i,key in enumerate(F_instance_element_tuple):
         progress = (float(i+1)*100.0)/ float(len(F_instance_element_tuple))
         sys.stderr.write('{0:.3f}%\t({1}/{2})\r'.format(progress, i+1, len(F_instance_element_tuple)))
+
         # frame1_name = str(key.split("_")[0])
         frameType1_offset = key[0].split("_")[-1]
         elements1_offsets_roles = key[1]
@@ -271,7 +287,7 @@ def build_frame_distance_matrix(F_instance_element_dict):
                 # condensed_vector.append(Dist_Matrix[count][count2])
             count2+=1
 
-    print "distance matrix succesfully built....."
+    #print "distance matrix succesfully built....."
     return Dist_Matrix, frame_instance_index_dict
 
 def print_Dist_matrix(F_instance_distance_matrix, F_instance_index_dict):
@@ -286,12 +302,12 @@ def print_Dist_matrix(F_instance_distance_matrix, F_instance_index_dict):
 
 def perform_clustering(Dist_matrix, F_instance_index_dict):
     #result_clusters = ward(Dist_matrix)
-    print "Beginnning clustering...."
-    print "method", clustering_method
+    #print "Beginnning clustering...."
+    #print "method", clustering_method
     assignments = fcluster(linkage(Dist_matrix, method=clustering_method), DISTANCE, 'distance') #instead of weighted, can try others too
-    print "clustering performed successfully....."
+    #print "clustering performed successfully....."
     cluster = {}
-    print "printing clusters...."
+    #print "printing clusters...."
     for i in range(len(assignments)):
         cluster[F_instance_index_dict[i]] = assignments[i]
         #print F_instance_index_dict[i],"\t", assignments[i]
@@ -316,10 +332,10 @@ if __name__ == "__main__":
     triples = read_file(inputfile)  # read file having triples where instances separated by blank line
     frame_instances = triples_frame_instances(triples)
     F_instance_element_dict = extract_F_instance_elements(frame_instances)  # generate dict carrying frame_instance as key and elements as values
-    print "total instances:",len(F_instance_element_dict)
+    #print "total instances:",len(F_instance_element_dict)
     F_instance_distance_matrix, F_instance_index_dict = build_frame_distance_matrix(F_instance_element_dict)
     #print scipy.spatial.distance.is_valid_y(F_instance_distance_matrix)
-    print_Dist_matrix(F_instance_distance_matrix, F_instance_index_dict)
+    #print_Dist_matrix(F_instance_distance_matrix, F_instance_index_dict)
     sorted_cluster = perform_clustering(F_instance_distance_matrix, F_instance_index_dict)
     write_clusters(sorted_cluster)
-    print("--- %s seconds ---" % (time.time() - start_time))
+    #print("--- %s seconds ---" % (time.time() - start_time))
