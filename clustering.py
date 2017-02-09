@@ -30,15 +30,6 @@ CACHE = True
 
 unmapped_keys = set()  # those occur in any input instance
 
-if CACHE:
-    sys.stderr.write('reading similarity cache...\n')
-    synset_similarity_matrix = dict()
-    with open('synset_similarity_matrix.txt') as f:
-        for line in f:
-            sim, s1, s2 = line.rstrip().split(' ')
-            synset_similarity_matrix[(s1,s2)]=sim
-            synset_similarity_matrix[(s2,s1)]=sim
-
 def main(argv):
     global inputfile
     global FLAG_FRAME
@@ -85,6 +76,7 @@ def load_JSON(filename):
     with open(filename) as fp:
         return json.load(fp)
 
+wn31_30 = load_JSON("map/JSON_wn31-30.json")  # load wn31-30 dictionary
 
 def read_file(filename):
     fp = open(filename, "r")
@@ -126,11 +118,30 @@ def offset2ss(offset_31, wn_31_30):
         synset = None
     return synset
 
+if CACHE:
+    sys.stderr.write('reading similarity cache... ')
+    synset_similarity_matrix = dict()
+    with open('synset_similarity_matrix.txt') as f:
+        for line in f:
+            sim, offset1, offset2 = line.rstrip().split(' ')
+            ss1 = offset2ss(offset1, wn31_30)
+            ss2 = offset2ss(offset2, wn31_30)
+            synset_similarity_matrix[(ss1,ss2)]=eval(sim)
+            synset_similarity_matrix[(ss2,ss1)]=eval(sim)
+    sys.stderr.write('done\n')
 
 def WUP_similarity(ss1, ss2, cache=False):
-    if (ss1 is None or ss2 is None):  # due to mapping issue b/w wn3.1 and wn3.2
-        return 0.0
-    return wn.wup_similarity(ss1, ss2)
+    if CACHE:
+        if (ss1, ss2) in synset_similarity_matrix:
+            return synset_similarity_matrix[(ss1, ss2)]
+        elif (ss2, ss1) in synset_similarity_matrix:
+            return synset_similarity_matrix[(ss2, ss1)]
+        else:
+            return 0.0
+    else:
+        if (ss1 is None or ss2 is None):  # due to mapping issue b/w wn3.1 and wn3.2
+            return 0.0
+        return wn.wup_similarity(ss1, ss2)
 
 
 def find_similarity_frames(frameType1_offset, elements1_offsets_role, frameType2_offset, elements2_offsets_role,
@@ -328,7 +339,6 @@ def write_clusters(sorted_cluster):
 if __name__ == "__main__":
     start_time = time.time()
     main(sys.argv[1:])
-    wn31_30 = load_JSON("map/JSON_wn31-30.json")  # load wn31-30 dictionary
     triples = read_file(inputfile)  # read file having triples where instances separated by blank line
     frame_instances = triples_frame_instances(triples)
     F_instance_element_dict = extract_F_instance_elements(frame_instances)  # generate dict carrying frame_instance as key and elements as values
