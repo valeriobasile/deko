@@ -6,9 +6,8 @@ import logging
 from modules_read_write import *
 from goose import Goose
 import os
-from path import Path
 import sys, getopt
-PATH_current = path('form_fill_and_Extract.py').abspath()
+PATH_current = os.path.abspath('form_fill_and_Extract.py')
 PATH_Package = "/".join(PATH_current.split('/')[:-1])
 
 LOG_FILENAME = "logger.txt"
@@ -103,10 +102,10 @@ def extract_articles(list_links, data_store, resource_dir, dbpedia_entity):
                 lines = 0
                 words = 0
                 para = 1
-                resource_directories = [x[0].split("/")[-1] for x in os.walk(PATH_Package + "/Articles/Data/")]
+                resource_directories = [x[0].split("/")[-1] for x in os.walk(PATH_Package + "/data/")]
                 if(resource_dir not in resource_directories):
-                    subprocess.call(["mkdir " + PATH_Package + "/Articles/Data/" + resource_dir], shell=True)
-                directories = [x[0].split("/")[-1] for x in os.walk(PATH_Package + "/Articles/Data/"+resource_dir)]
+                    subprocess.call(["mkdir " + PATH_Package + "/data/" + resource_dir], shell=True)
+                directories = [x[0].split("/")[-1] for x in os.walk(PATH_Package + "/data/"+resource_dir)]
                 #print directories
                 flag = 0
                 if(count==1 and (dbpedia_entity not in directories)):
@@ -122,9 +121,9 @@ def extract_articles(list_links, data_store, resource_dir, dbpedia_entity):
                         directory = "\\'".join(directory.split("'"))
                         flag=1
                     if(flag==1):
-                        subprocess.call(["mkdir " + PATH_Package + "/Articles/Data/" + resource_dir + "/" + directory], shell = True)
+                        subprocess.call(["mkdir " + PATH_Package + "/data/" + resource_dir + "/" + directory], shell = True)
                     else:
-                        subprocess.call(["mkdir " + PATH_Package + "/Articles/Data/" + resource_dir + "/" + dbpedia_entity], shell=True)
+                        subprocess.call(["mkdir " + PATH_Package + "/data/" + resource_dir + "/" + dbpedia_entity], shell=True)
                 write_article_txt(article, filename, dbpedia_entity, resource_dir)
                 filter_text(filename, dbpedia_entity, resource_dir)
                 article = read_file(filename, dbpedia_entity, resource_dir)
