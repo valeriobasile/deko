@@ -7,6 +7,8 @@ from modules_read_write import *
 from goose import Goose
 import os
 import sys, getopt
+from time import sleep
+
 PATH_current = os.path.abspath('form_fill_and_Extract.py')
 PATH_Package = "/".join(PATH_current.split('/')[:-1])
 
@@ -367,7 +369,7 @@ if __name__ == "__main__":
             print "No result found for actual keyphrase-",refined_keyphrase.strip("\n").lower(), "or Named Entity-"," ".join(Named_Entity).lower()," in keyphrase..."
             print "No article found"
             print "\n"
-
+        sleep(1)
     #for key in data_store:
         #print key, data_store[key]
     write_to_file_json(data_store,"dict_"+directory+".json")
