@@ -1,0 +1,6 @@
+*.DS_Store
+plugins/*
+triggers/*
+tests/coverage/*
+/composer.lock
+vendor/

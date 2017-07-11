@@ -1,0 +1,53 @@
+/*
+brown a65807
+blue 8cd7e7
+*/
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+a {
+    color: #a65807;
+}
+
+.properties {
+    background-color: #8cd7e7;
+    border-radius: 0.5em;
+    margin-top: 1em;
+    padding: 0.5em;
+}
+
+.properties li {
+    list-style-type: none;
+}
+
+#title h1 {
+    font-family: 'Arvo', serif;
+    color: #a65807;
+}
+
+#title #uri {
+    font-size: small;
+}
+
+#title #lemma {
+    color:#888;
+}
+
+#title #gloss {
+    color:#888;
+}
+
+#title #image {
+    height: 15em;
+    display: block;
+    border: none;
+}
+
+#header img {
+    width: 200px;
+}
+
+#header {
+    border-bottom: 1px dashed #8cd7e7;  
+}
