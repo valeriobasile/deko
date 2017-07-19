@@ -42,19 +42,22 @@ def frame_relatedness(frame1, frame2):
         if lu in semcor_sentences:
             cf2 = cf2.union(set(semcor_sentences[lu]))
 
-    l1 = float(len(cf1))
-    l2 = float(len(cf2))
-    l12 = float(len(cf1.intersection(cf2)))
+    l1 = float(len(cf1))/36405.0
+    l2 = float(len(cf2))/36405.0
+    l12 = float(len(cf1.intersection(cf2)))/36405.0
     #print l1, l2, l12
-    return math.log(l12/(l1*l2), 2.0)
-    
+    if l12 == 0.0 or l1 == 0.0 or l2 == 0.0:
+        return 0.0
+    else:
+        return math.log(l12/(l1*l2), 2.0)
+
 def frame_element_relatedness(fe1, fe2):
     return 0.0
 
 def frame_instance_similarity(fi1, fi2):
-    alpha = 0.5
+    # the alpha prameter will be read from a config file
+    alpha = 1.0
     frame_sim = frame_relatedness(fi1.frame_type, fi2.frame_type)
     fe_sim = frame_element_relatedness(fi1.frame_elements, fi2.frame_elements)
     sim = alpha * frame_sim + (1.0-alpha) * fe_sim
-    #print "{0:.3f} * {1:.3f} + {2:.3f} * {3:.3f} = {4:.3f}".format(alpha, frame_sim, 1.0-alpha, fe_sim, sim)
     return sim
