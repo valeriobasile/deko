@@ -6,6 +6,9 @@ from nltk.corpus import wordnet
 import math
 import os
 import logging as log
+import gensim
+from scipy.spatial.distance import cosine
+import MySQLdb
 
 # log configuration
 log.basicConfig(level=log.DEBUG, format='%(asctime)s.%(msecs)03d %(levelname)s %(message)s')
@@ -13,7 +16,7 @@ log.basicConfig(level=log.DEBUG, format='%(asctime)s.%(msecs)03d %(levelname)s %
 # read the lexical units dictionary
 log.info("reading FrameNet lexical units")
 lexical_units = dict()
-with open("../resources/frame_lexical_units.tsv") as f:
+with open(os.path.join(os.path.dirname(__file__), "../resources/frame_lexical_units.tsv")) as f:
     for line in f:
         frame, lu = line.rstrip().split('\t')
         if not frame in lexical_units:
@@ -24,7 +27,7 @@ with open("../resources/frame_lexical_units.tsv") as f:
 log.info("reading Semcor 3.0 lemmas")
 semcor_lemmas = dict()
 semcor_sentences = dict()
-with open("../resources/semcor3.0_lemmas.tsv") as f:
+with open(os.path.join(os.path.dirname(__file__), "../resources/semcor3.0_lemmas.tsv")) as f:
     for line in f:
         sentence_id, lemma, sense = line.rstrip().split('\t')
 
@@ -50,16 +53,57 @@ with open(os.path.join(os.path.dirname(__file__), '../resources/wn30-31')) as f:
 log.info("reading WordNet 3.0 offset-id mapping")
 offset2name = dict()
 name2offset = dict()
-with open("../resources/wordnet_offsets.tsv") as f:
+with open(os.path.join(os.path.dirname(__file__), "../resources/wordnet_offsets.tsv")) as f:
     for line in f:
         offset, name = line.rstrip().split('\t')
         offset2name[offset] = name
         name2offset[name] = offset
 
-def frame_relatedness(frame1, frame2):
+# open connection to the DB
+db = MySQLdb.connect(host="127.0.0.1",    # your host, usually localhost
+                     user="nasari",         # your username
+                     passwd="nasari",  # your password
+                     db="nasari")        # name of the data base
+cur = db.cursor()
+
+def read_vector_file(vector_file):
+    f = open(vector_file,'r')
+    model = {}
+    for line in f:
+        splitLine = line.split()
+        word = splitLine[0]
+        embedding = [float(val) for val in splitLine[1:]]
+        model[word] = embedding
+    return model
+
+log.info("loading frame vectors")
+frame_vectors = read_vector_file(os.path.join(os.path.dirname(__file__), '../resources/frame_vectors_glove6b.txt'))
+
+def nasari_similarity(e1, e2):
+    if e1 == e2:
+        return 1.0
+    bnid1 = "bn:{0}".format(e1[1:])
+    bnid2 = "bn:{0}".format(e2[1:])
+    sql = "select * from vector where babelnetid = '{0}' or babelnetid = '{1}';".format(db.escape_string(bnid1), db.escape_string(bnid2))
+    cur.execute(sql)
+    rows = cur.fetchall()
+    # check that there are two rows
+    if len(rows) != 2:
+        return -1.0
+    return (1.0-cosine(rows[0][2:], rows[1][2:]))
+
+def frame_relatedness(frame1, frame2, ftsim='occ'):
     """Compute the relatedness between two frame types, using one of the
     methods proposed by Pennacchiotti and Wirth (ACL 2009)."""
-    return cr_occ(frame1, frame2)
+    if ftsim == 'occ':
+        return cr_occ(frame1, frame2)
+    elif ftsim == 'dist':
+        return ftsim_dist(frame1, frame2)
+
+def ftsim_dist(frame1, frame2):
+    v1 = frame_vectors[frame1]
+    v2 = frame_vectors[frame2]
+    return 1.0 - cosine(v1, v2)
 
 def cr_occ(frame1, frame2):
     """This is an implementation of the first co-occurrence measure of
@@ -102,12 +146,18 @@ def wup_similarity(s1, s2):
     synset2 = wordnet.synset(offset2name[s2])
     return synset1.wup_similarity(synset2)
 
-def synset_similarity(s1, s2):
-    """Input: two WordNet 3.0 synset identifier, e.g, '06326797-n'
+def synset_similarity(e1, e2, fesim='wup'):
+    """Input: two concept URI, e.g, '<http://babelnet.org/rdf/s00046516n>?'
     Output: a real number between 0.0 and 1.0"""
-    return wup_similarity(s1, s2)
 
-def frame_element_relatedness(fe1, fe2, roles=False):
+    synsetid1 = e1[1:-1].split('/')[-1]
+    synsetid2 = e2[1:-1].split('/')[-1]
+    if fesim=='wup':
+        return wup_similarity(wn31wn30[synsetid1], wn31wn30[synsetid2])
+    elif fesim == 'dist':
+        return nasari_similarity(synsetid1, synsetid2)
+
+def frame_element_relatedness(fe1, fe2, roles=False, fesim='wup'):
     """Computes an aggregate measure of relatedness between the entities
     involved in the frame elements.
     Input: two frame elements
@@ -119,9 +169,7 @@ def frame_element_relatedness(fe1, fe2, roles=False):
             if roles == True and s1.role != s2.role:
                 sim = 0.0
             else:
-                synsetid1 = wn31wn30[s1.entity[1:-1].split('/')[-1]]
-                synsetid2 = wn31wn30[s2.entity[1:-1].split('/')[-1]]
-                sim = synset_similarity(synsetid1, synsetid2)
+                sim = synset_similarity(s1.entity, s2.entity, fesim=fesim)
             if sim > max_sim:
                 max_sim = sim
         sims1.append(max_sim)
@@ -138,9 +186,7 @@ def frame_element_relatedness(fe1, fe2, roles=False):
             if roles == True and s1.role != s2.role:
                 sim = 0.0
             else:
-                synsetid1 = wn31wn30[s1.entity[1:-1].split('/')[-1]]
-                synsetid2 = wn31wn30[s2.entity[1:-1].split('/')[-1]]
-                sim = synset_similarity(synsetid1, synsetid2)
+                sim = synset_similarity(s1.entity, s2.entity, fesim=fesim)
             if sim > max_sim:
                 max_sim = sim
         sims2.append(max_sim)
@@ -152,9 +198,9 @@ def frame_element_relatedness(fe1, fe2, roles=False):
 
     return (sim1+sim2)/2.0
 
-def frame_instance_similarity(fi1, fi2, alpha=0.5, roles=False):
+def frame_instance_similarity(fi1, fi2, alpha=0.5, roles=False, ftsim='occ', fesim='wup'):
     # the alpha prameter will be read from a config file
-    frame_sim = frame_relatedness(fi1.frame_type, fi2.frame_type)
-    fe_sim = frame_element_relatedness(fi1.frame_elements, fi2.frame_elements, roles=roles)
+    frame_sim = frame_relatedness(fi1.frame_type, fi2.frame_type, ftsim=ftsim)
+    fe_sim = frame_element_relatedness(fi1.frame_elements, fi2.frame_elements, roles=roles, fesim=fesim)
     sim = alpha * frame_sim + (1.0-alpha) * fe_sim
     return sim

@@ -34,6 +34,18 @@ parser.add_option('-r',
                   '--roles',
                   dest="roles",
                   help="alpha parameter for the frame instance similarity measure")
+parser.add_option('-t',
+                  '--ftsim',
+                  dest="ftsim",
+                  help="method for computing the frame type relatedness (occ|dist)")
+parser.add_option('-e',
+                  '--fesim',
+                  dest="fesim",
+                  help="method for computing the frame element relatedness (occ|dist)")
+parser.add_option('-g',
+                  '--aggregate',
+                  dest="aggregate",
+                  help="aggregation function for computing the document relatedness (avg|max)")
 
 (options, args) = parser.parse_args()
 
@@ -53,8 +65,23 @@ else:
 
 roles = (options.roles != None and options.roles == 'true')
 
+if options.ftsim:
+    ftsim = options.ftsim
+else:
+    ftsim = 'occ'
+
+if options.fesim:
+    fesim = options.fesim
+else:
+    fesim = 'wup'
+
+if options.aggregate:
+    aggregate = options.aggregate
+else:
+    aggregate = 'avg'
+
 for document_pair in document_pairs:
-    log.info('computing similarity between documents {0}, {1} (alpha={2}, roles={3})'.format(document_pair[0], document_pair[1], alpha, roles))
+    log.info('computing similarity between documents {0}, {1} (alpha={2}, roles={3}, ftsim={4}, fesim={5}, agg={6})'.format(document_pair[0], document_pair[1], alpha, roles, ftsim, fesim, aggregate))
     document1 = frameinstance.read_instances_from_nt(document_pair[0])
     document2 = frameinstance.read_instances_from_nt(document_pair[1])
 
@@ -62,29 +89,35 @@ for document_pair in document_pairs:
     for fid1, frameinstance1 in document1.iteritems():
         max_sim = -1.0
         for fid2, frameinstance2 in document2.iteritems():
-            sim = frameinstancesimilarity.frame_instance_similarity(frameinstance1, frameinstance2, alpha=alpha, roles=roles)
+            sim = frameinstancesimilarity.frame_instance_similarity(frameinstance1, frameinstance2, alpha=alpha, roles=roles, ftsim=ftsim, fesim=fesim)
             if sim > max_sim:
                 max_sim = sim
         sims.append(max_sim)
 
     if len(sims)> 0:
-        avg_sim1 = sum(sims)/float(len(sims))
+        if aggregate == 'avg':
+            agg_sim1 = sum(sims)/float(len(sims))
+        elif aggregate == 'max':
+            agg_sim1 = max(sims)
     else:
-        avg_sim1 = 0.0
+        agg_sim1 = 0.0
 
     sims = []
     for fid2, frameinstance2 in document2.iteritems():
         max_sim = -1.0
         for fid1, frameinstance1 in document1.iteritems():
-            sim = frameinstancesimilarity.frame_instance_similarity(frameinstance1, frameinstance2, alpha=alpha, roles=roles)
+            sim = frameinstancesimilarity.frame_instance_similarity(frameinstance1, frameinstance2, alpha=alpha, roles=roles, ftsim=ftsim, fesim=fesim)
             if sim > max_sim:
                 max_sim = sim
         sims.append(max_sim)
 
     if len(sims)> 0:
-        avg_sim2 = sum(sims)/float(len(sims))
+        if aggregate == 'avg':
+            agg_sim2 = sum(sims)/float(len(sims))
+        elif aggregate == 'max':
+            agg_sim2 = max(sims)
     else:
-        avg_sim2 = 0.0
+        agg_sim2 = 0.0
 
-    avg_sim = (avg_sim1 + avg_sim2) / 2.0
-    print avg_sim
+    agg_sim = (agg_sim1 + agg_sim2) / 2.0
+    print agg_sim
