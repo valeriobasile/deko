@@ -110,7 +110,7 @@ def cr_occ(frame1, frame2):
     Pennacchiotti and Wirth (ACL2009), described in Sec. 4.2.1 of the paper.
     Input: two frame type names, e.g., Commerce_buy/Commerce_sell.
     Output: a real number (Pointwise-mutual information)."""
-
+    
     lus1 = lexical_units[frame1]
     lus2 = lexical_units[frame2]
 
@@ -131,15 +131,14 @@ def cr_occ(frame1, frame2):
     '''Set of the contexts where lexical units from both frames co-occur'''
     cf12 = cf1.intersection(cf2)
 
-    '''Compute the Point-wise Mutual Information'''
+    '''Compute the Normalized Point-wise Mutual Information'''
     l1 = float(len(cf1))/float(len(semcor_lemmas))
     l2 = float(len(cf2))/float(len(semcor_lemmas))
     l12 = float(len(cf12))/float(len(semcor_lemmas))
-    #print l1, l2, l12
     if l12 == 0.0 or l1 == 0.0 or l2 == 0.0:
         return 0.0
     else:
-        return math.log(l12/(l1*l2), 2.0)
+        return (math.log(l12/(l1*l2), 2.0))/(-math.log(l12, 2.0))
 
 def wup_similarity(s1, s2):
     synset1 = wordnet.synset(offset2name[s1])
