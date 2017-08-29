@@ -37,11 +37,11 @@ parser.add_option('-r',
 parser.add_option('-t',
                   '--ftsim',
                   dest="ftsim",
-                  help="method for computing the frame type relatedness (occ|dist)")
+                  help="method for computing the frame type relatedness: occ (default) or dist")
 parser.add_option('-e',
                   '--fesim',
                   dest="fesim",
-                  help="method for computing the frame element relatedness (occ|dist)")
+                  help="method for computing the frame element relatedness: wup (default) or dist")
 parser.add_option('-g',
                   '--aggregate',
                   dest="aggregate",
