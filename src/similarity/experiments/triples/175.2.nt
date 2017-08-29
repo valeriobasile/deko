@@ -1,0 +1,5 @@
+<http://framebase.org/ns/fi-People_97bb6dc0-8b66-421c-a923-798b6325ee61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_97bb6dc0-8b66-421c-a923-798b6325ee61> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10262488-n> .
+<http://framebase.org/ns/fi-Commerce_sell_182449c1-2df9-4ba5-a376-448fc78b98fe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Commerce_sell> .
+<http://framebase.org/ns/fi-Commerce_sell_182449c1-2df9-4ba5-a376-448fc78b98fe> <http://framebase.org/ns/fe-Goods> <http://wordnet-rdf.princeton.edu/wn31/13267231-n> .
+<http://framebase.org/ns/fi-Commerce_sell_182449c1-2df9-4ba5-a376-448fc78b98fe> <http://framebase.org/ns/fe-Seller> <http://wordnet-rdf.princeton.edu/wn31/10262488-n> .

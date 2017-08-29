@@ -1,0 +1,2 @@
+<http://framebase.org/ns/fi-Earnings_and_losses_b7d5deab-1656-499a-92d1-f132fda6b694> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Earnings_and_losses> .
+<http://framebase.org/ns/fi-Earnings_and_losses_b7d5deab-1656-499a-92d1-f132fda6b694> <http://framebase.org/ns/fe-Earnings> <http://wordnet-rdf.princeton.edu/wn31/02830790-n> .

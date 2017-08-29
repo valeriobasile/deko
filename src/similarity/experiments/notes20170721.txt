@@ -1,0 +1,5 @@
+Aggregation: avg > max
+roles: true > false
+ftsim: occ > dist
+fesim: dist > wup
+

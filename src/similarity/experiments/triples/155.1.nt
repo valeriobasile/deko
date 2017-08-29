@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-People_16298028-295d-4397-b78c-82556c64cecc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_16298028-295d-4397-b78c-82556c64cecc> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/07958392-n> .
+<http://framebase.org/ns/fi-Clothing_250d82d2-88ac-4f77-a298-625ffe9b0619> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Clothing> .
+<http://framebase.org/ns/fi-Clothing_250d82d2-88ac-4f77-a298-625ffe9b0619> <http://framebase.org/ns/fe-Garment> <http://wordnet-rdf.princeton.edu/wn31/02731365-n> .
+<http://framebase.org/ns/fi-Arriving_4af913a0-4511-4ec6-b805-a28c1611eaf2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Arriving> .
+<http://framebase.org/ns/fi-Arriving_4af913a0-4511-4ec6-b805-a28c1611eaf2> <http://framebase.org/ns/fe-Theme> <http://wordnet-rdf.princeton.edu/wn31/07958392-n> .
+<http://framebase.org/ns/fi-Arriving_4af913a0-4511-4ec6-b805-a28c1611eaf2> <http://framebase.org/ns/fe-Goal> <http://wordnet-rdf.princeton.edu/wn31/02731365-n> .

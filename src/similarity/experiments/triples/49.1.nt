@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Causation_258b5ab7-6896-49e0-b1a5-5e79c5d9acf6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Causation> .
+<http://framebase.org/ns/fi-Causation_258b5ab7-6896-49e0-b1a5-5e79c5d9acf6> <http://framebase.org/ns/fe-Effect> <http://wordnet-rdf.princeton.edu/wn31/04939142-n> .
+<http://framebase.org/ns/fi-Partitive_5d95bb0e-4f32-4a20-ab5e-b0ac81bcda4c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Partitive> .
+<http://framebase.org/ns/fi-Partitive_5d95bb0e-4f32-4a20-ab5e-b0ac81bcda4c> <http://framebase.org/ns/fe-Subset> <http://wordnet-rdf.princeton.edu/wn31/04939142-n> .
+<http://framebase.org/ns/fi-Partitive_5d95bb0e-4f32-4a20-ab5e-b0ac81bcda4c> <http://framebase.org/ns/fe-Group> <http://wordnet-rdf.princeton.edu/wn31/00489236-n> .
+<http://framebase.org/ns/fi-Buildings_9272318f-8de0-4805-8f85-269ff0f3f31c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Buildings> .
+<http://framebase.org/ns/fi-Buildings_9272318f-8de0-4805-8f85-269ff0f3f31c> <http://framebase.org/ns/fe-Building> <http://wordnet-rdf.princeton.edu/wn31/04939142-n> .

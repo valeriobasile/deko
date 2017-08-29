@@ -1,0 +1,2 @@
+<http://framebase.org/ns/fi-Operate_vehicle_b38b3c6a-374b-4b25-b3a8-d5514dec68a4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Operate_vehicle> .
+<http://framebase.org/ns/fi-Operate_vehicle_b38b3c6a-374b-4b25-b3a8-d5514dec68a4> <http://framebase.org/ns/fe-Goal> <http://wordnet-rdf.princeton.edu/wn31/04044101-n> .

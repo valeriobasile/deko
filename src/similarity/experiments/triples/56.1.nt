@@ -1,0 +1,5 @@
+<http://framebase.org/ns/fi-Clothing_faab4e4f-8fe9-42f3-b3a8-fc415e880f7b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Clothing> .
+<http://framebase.org/ns/fi-Clothing_faab4e4f-8fe9-42f3-b3a8-fc415e880f7b> <http://framebase.org/ns/fe-Garment> <http://wordnet-rdf.princeton.edu/wn31/04377135-n> .
+<http://framebase.org/ns/fi-Inclusion_9e157424-c3cc-41f0-ae07-1a47bc513e69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Inclusion> .
+<http://framebase.org/ns/fi-Inclusion_9e157424-c3cc-41f0-ae07-1a47bc513e69> <http://framebase.org/ns/fe-Part> <http://wordnet-rdf.princeton.edu/wn31/04377135-n> .
+<http://framebase.org/ns/fi-Inclusion_9e157424-c3cc-41f0-ae07-1a47bc513e69> <http://framebase.org/ns/fe-Total> <http://wordnet-rdf.princeton.edu/wn31/02086723-n> .

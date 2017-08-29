@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Self_motion_2903b202-e655-46af-95c2-07f7fbb53754> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Self_motion> .
+<http://framebase.org/ns/fi-Self_motion_2903b202-e655-46af-95c2-07f7fbb53754> <http://framebase.org/ns/fe-Goal> <http://wordnet-rdf.princeton.edu/wn31/00912746-n> .
+<http://framebase.org/ns/fi-Buildings_15260dac-08ed-433b-8db2-5372234a40b9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Buildings> .
+<http://framebase.org/ns/fi-Buildings_15260dac-08ed-433b-8db2-5372234a40b9> <http://framebase.org/ns/fe-Building> <http://wordnet-rdf.princeton.edu/wn31/00912746-n> .

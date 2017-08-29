@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Kinship_61a1ab12-6eab-4ef3-8ba6-9e9401fc7d40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Kinship> .
+<http://framebase.org/ns/fi-Kinship_61a1ab12-6eab-4ef3-8ba6-9e9401fc7d40> <http://framebase.org/ns/fe-Alter> <http://wordnet-rdf.princeton.edu/wn31/10007601-n> .
+<http://framebase.org/ns/fi-Statement_c3b89502-3391-49e0-99db-8600c3dffda4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Statement> .
+<http://framebase.org/ns/fi-Statement_c3b89502-3391-49e0-99db-8600c3dffda4> <http://framebase.org/ns/fe-Message> <http://wordnet-rdf.princeton.edu/wn31/02995984-n> .
+<http://framebase.org/ns/fi-Statement_c3b89502-3391-49e0-99db-8600c3dffda4> <http://framebase.org/ns/fe-Speaker> <http://wordnet-rdf.princeton.edu/wn31/10149362-n> .
+<http://framebase.org/ns/fi-People_daa8971e-266e-446f-b341-887d5e4df38b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_daa8971e-266e-446f-b341-887d5e4df38b> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10149362-n> .

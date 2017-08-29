@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Increment_5c3bdb16-5da6-45b0-81f6-121d5a0f1d16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Increment> .
+<http://framebase.org/ns/fi-Increment_5c3bdb16-5da6-45b0-81f6-121d5a0f1d16> <http://framebase.org/ns/fe-Class> <http://wordnet-rdf.princeton.edu/wn31/02086723-n> .
+<http://framebase.org/ns/fi-Leadership_c21d4100-fa74-4042-9f94-edb25b11eef7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Leadership> .
+<http://framebase.org/ns/fi-Leadership_c21d4100-fa74-4042-9f94-edb25b11eef7> <http://framebase.org/ns/fe-Leader> <http://wordnet-rdf.princeton.edu/wn31/02086723-n> .

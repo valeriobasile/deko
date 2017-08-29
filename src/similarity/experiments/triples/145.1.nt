@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-People_75760c9f-a2b9-418d-ab10-683a80d68af1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_75760c9f-a2b9-418d-ab10-683a80d68af1> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/06337790-n> .
+<http://framebase.org/ns/fi-Roadways_7fe79e8c-3cc8-493a-b590-c64a9536ce32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Roadways> .
+<http://framebase.org/ns/fi-Roadways_7fe79e8c-3cc8-493a-b590-c64a9536ce32> <http://framebase.org/ns/fe-Roadway> <http://wordnet-rdf.princeton.edu/wn31/00174852-n> .
+<http://framebase.org/ns/fi-Intentionally_act_db4c567c-75e4-4037-84b6-f4617ed57f4a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Intentionally_act> .
+<http://framebase.org/ns/fi-Intentionally_act_db4c567c-75e4-4037-84b6-f4617ed57f4a> <http://framebase.org/ns/fe-Agent> <http://wordnet-rdf.princeton.edu/wn31/06337790-n> .
+<http://framebase.org/ns/fi-Intentionally_act_db4c567c-75e4-4037-84b6-f4617ed57f4a> <http://framebase.org/ns/fe-Act> <http://wordnet-rdf.princeton.edu/wn31/04606723-n> .

@@ -1,0 +1,2 @@
+<http://framebase.org/ns/fi-Observable_body_parts_5a353e3c-7e59-4924-83ec-1dfe18a70574> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Observable_body_parts> .
+<http://framebase.org/ns/fi-Observable_body_parts_5a353e3c-7e59-4924-83ec-1dfe18a70574> <http://framebase.org/ns/fe-Body_part> <http://wordnet-rdf.princeton.edu/wn31/05275611-n> .

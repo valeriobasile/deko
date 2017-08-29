@@ -1,0 +1,6 @@
+<http://framebase.org/ns/fi-Activity_prepare_98b88f8e-d696-44e9-a724-0b476d3f2f25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Activity_prepare> .
+<http://framebase.org/ns/fi-Activity_prepare_98b88f8e-d696-44e9-a724-0b476d3f2f25> <http://framebase.org/ns/fe-Activity> <http://wordnet-rdf.princeton.edu/wn31/02414351-n> .
+<http://framebase.org/ns/fi-Cardinal_numbers_577fd91c-bc0e-47ad-a1db-733b0fd09609> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Cardinal_numbers> .
+<http://framebase.org/ns/fi-Cardinal_numbers_577fd91c-bc0e-47ad-a1db-733b0fd09609> <http://framebase.org/ns/fe-Entity> <http://wordnet-rdf.princeton.edu/wn31/02414351-n> .
+<http://framebase.org/ns/fi-Gathering_up_a85c92ce-2f25-4cff-959e-bd3959c4856d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Gathering_up> .
+<http://framebase.org/ns/fi-Gathering_up_a85c92ce-2f25-4cff-959e-bd3959c4856d> <http://framebase.org/ns/fe-Agent> <http://wordnet-rdf.princeton.edu/wn31/02086723-n> .

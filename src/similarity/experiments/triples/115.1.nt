@@ -1,0 +1,6 @@
+<http://framebase.org/ns/fi-Food_272d5821-8b69-4291-bb5b-13c339251753> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Food> .
+<http://framebase.org/ns/fi-Food_272d5821-8b69-4291-bb5b-13c339251753> <http://framebase.org/ns/fe-Food> <http://wordnet-rdf.princeton.edu/wn31/05819240-n> .
+<http://framebase.org/ns/fi-Apply_heat_f7b3f006-97df-497d-9cee-93f8544587ce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Apply_heat> .
+<http://framebase.org/ns/fi-Apply_heat_f7b3f006-97df-497d-9cee-93f8544587ce> <http://framebase.org/ns/fe-Food> <http://wordnet-rdf.princeton.edu/wn31/09982799-n> .
+<http://framebase.org/ns/fi-Existence_a4d0ebc8-7a45-4d85-9a47-ccd41438fdbb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Existence> .
+<http://framebase.org/ns/fi-Existence_a4d0ebc8-7a45-4d85-9a47-ccd41438fdbb> <http://framebase.org/ns/fe-Entity> <http://wordnet-rdf.princeton.edu/wn31/05819240-n> .

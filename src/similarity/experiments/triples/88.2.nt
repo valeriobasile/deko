@@ -1,0 +1,2 @@
+<http://framebase.org/ns/fi-Aggregate_4c34219f-c416-4adc-83b9-54acd442c3ee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Aggregate> .
+<http://framebase.org/ns/fi-Aggregate_4c34219f-c416-4adc-83b9-54acd442c3ee> <http://framebase.org/ns/fe-Aggregate> <http://wordnet-rdf.princeton.edu/wn31/04099721-n> .

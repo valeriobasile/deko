@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-People_by_vocation_d9841821-2aa9-4253-a921-2333cbfa5097> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People_by_vocation> .
+<http://framebase.org/ns/fi-People_by_vocation_d9841821-2aa9-4253-a921-2333cbfa5097> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10641415-n> .
+<http://framebase.org/ns/fi-Self_motion_b45131de-3745-44a4-a104-3104ec3b77db> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Self_motion> .
+<http://framebase.org/ns/fi-Self_motion_b45131de-3745-44a4-a104-3104ec3b77db> <http://framebase.org/ns/fe-Self_mover> <http://wordnet-rdf.princeton.edu/wn31/10641415-n> .

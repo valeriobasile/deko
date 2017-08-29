@@ -1,0 +1,2 @@
+<http://framebase.org/ns/fi-Arriving_50fa216d-4eeb-404c-8b56-a7cfff9c3f43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Arriving> .
+<http://framebase.org/ns/fi-Arriving_50fa216d-4eeb-404c-8b56-a7cfff9c3f43> <http://framebase.org/ns/fe-Goal> <http://wordnet-rdf.princeton.edu/wn31/02731365-n> .

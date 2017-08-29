@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Shapes_19990902-4727-4eb2-8d83-670f0f8aee21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Shapes> .
+<http://framebase.org/ns/fi-Shapes_19990902-4727-4eb2-8d83-670f0f8aee21> <http://framebase.org/ns/fe-Shape> <http://wordnet-rdf.princeton.edu/wn31/02781674-n> .
+<http://framebase.org/ns/fi-Hunting_success_or_failure_dd38fcf4-4550-4752-a481-8c36d145f3dc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Hunting_success_or_failure> .
+<http://framebase.org/ns/fi-Hunting_success_or_failure_dd38fcf4-4550-4752-a481-8c36d145f3dc> <http://framebase.org/ns/fe-Food> <http://wordnet-rdf.princeton.edu/wn31/09784701-n> .

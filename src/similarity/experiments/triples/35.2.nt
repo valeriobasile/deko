@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Kinship_73c20e1b-0c48-41df-ad05-a3d0e80cdd87> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Kinship> .
+<http://framebase.org/ns/fi-Kinship_73c20e1b-0c48-41df-ad05-a3d0e80cdd87> <http://framebase.org/ns/fe-Alter> <http://wordnet-rdf.princeton.edu/wn31/09937051-n> .
+<http://framebase.org/ns/fi-Ride_vehicle_a3e3fe5c-59d8-4ee9-8f7f-4d439e8772a4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Ride_vehicle> .
+<http://framebase.org/ns/fi-Ride_vehicle_a3e3fe5c-59d8-4ee9-8f7f-4d439e8772a4> <http://framebase.org/ns/fe-Theme> <http://wordnet-rdf.princeton.edu/wn31/04233049-n> .

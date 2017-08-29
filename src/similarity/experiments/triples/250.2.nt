@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Roadways_f897e5ca-e867-4ef1-8439-abd6c0e5c1f3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Roadways> .
+<http://framebase.org/ns/fi-Roadways_f897e5ca-e867-4ef1-8439-abd6c0e5c1f3> <http://framebase.org/ns/fe-Roadway> <http://wordnet-rdf.princeton.edu/wn31/00173531-n> .
+<http://framebase.org/ns/fi-Roadways_f897e5ca-e867-4ef1-8439-abd6c0e5c1f3> <http://framebase.org/ns/fe-Goal> <http://wordnet-rdf.princeton.edu/wn31/15184543-n> .
+<http://framebase.org/ns/fi-People_cb4ceeef-53ae-4b44-b2e3-38cf8da16564> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_cb4ceeef-53ae-4b44-b2e3-38cf8da16564> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10807146-n> .
+<http://framebase.org/ns/fi-Food_ca16115c-879e-409e-9a1d-a82396037f5f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Food> .
+<http://framebase.org/ns/fi-Food_ca16115c-879e-409e-9a1d-a82396037f5f> <http://framebase.org/ns/fe-Food> <http://wordnet-rdf.princeton.edu/wn31/15184543-n> .

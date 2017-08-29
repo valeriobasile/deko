@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Calendric_unit_7d0e5d66-907e-439e-b56a-8474059d234a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Calendric_unit> .
+<http://framebase.org/ns/fi-Calendric_unit_7d0e5d66-907e-439e-b56a-8474059d234a> <http://framebase.org/ns/fe-Unit> <http://wordnet-rdf.princeton.edu/wn31/15191238-n> .
+<http://framebase.org/ns/fi-Roadways_6f061e6e-9414-494b-b3f0-32633a5a65c6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Roadways> .
+<http://framebase.org/ns/fi-Roadways_6f061e6e-9414-494b-b3f0-32633a5a65c6> <http://framebase.org/ns/fe-Roadway> <http://wordnet-rdf.princeton.edu/wn31/04222469-n> .

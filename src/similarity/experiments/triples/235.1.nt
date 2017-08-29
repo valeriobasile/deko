@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Personal_relationship_eb772735-1b51-4f12-98b3-f37674edaafe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Personal_relationship> .
+<http://framebase.org/ns/fi-Personal_relationship_eb772735-1b51-4f12-98b3-f37674edaafe> <http://framebase.org/ns/fe-Partner_1> <http://wordnet-rdf.princeton.edu/wn31/13765745-n> .
+<http://framebase.org/ns/fi-Performers_and_roles_075787b7-6c2e-4286-8a34-33f6e72b07a0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Performers_and_roles> .
+<http://framebase.org/ns/fi-Performers_and_roles_075787b7-6c2e-4286-8a34-33f6e72b07a0> <http://framebase.org/ns/fe-Performer> <http://wordnet-rdf.princeton.edu/wn31/13765745-n> .

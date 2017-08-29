@@ -1,0 +1,6 @@
+<http://framebase.org/ns/fi-Hiding_objects_290292db-8722-4902-9edb-a63edba9b7ee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Hiding_objects> .
+<http://framebase.org/ns/fi-Hiding_objects_290292db-8722-4902-9edb-a63edba9b7ee> <http://framebase.org/ns/fe-Time> <http://wordnet-rdf.princeton.edu/wn31/08455525-n> .
+<http://framebase.org/ns/fi-Substance_ae1238bd-0ff8-42f3-bf91-3c13eab6ddad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Substance> .
+<http://framebase.org/ns/fi-Substance_ae1238bd-0ff8-42f3-bf91-3c13eab6ddad> <http://framebase.org/ns/fe-Substance> <http://wordnet-rdf.princeton.edu/wn31/08455525-n> .
+<http://framebase.org/ns/fi-Aggregate_617ea4ed-57f2-448b-96ef-02597e53751e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Aggregate> .
+<http://framebase.org/ns/fi-Aggregate_617ea4ed-57f2-448b-96ef-02597e53751e> <http://framebase.org/ns/fe-Aggregate> <http://wordnet-rdf.princeton.edu/wn31/13765745-n> .

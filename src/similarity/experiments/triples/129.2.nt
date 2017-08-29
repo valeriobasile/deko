@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Color_d2526a1e-c63e-4e22-936a-9c3a06b17dce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Color> .
+<http://framebase.org/ns/fi-Color_d2526a1e-c63e-4e22-936a-9c3a06b17dce> <http://framebase.org/ns/fe-Entity> <http://wordnet-rdf.princeton.edu/wn31/02086723-n> .
+<http://framebase.org/ns/fi-Cotheme_380055b3-0af5-41d8-ac22-dab079d6eddc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Cotheme> .
+<http://framebase.org/ns/fi-Cotheme_380055b3-0af5-41d8-ac22-dab079d6eddc> <http://framebase.org/ns/fe-Theme> <http://wordnet-rdf.princeton.edu/wn31/02086723-n> .

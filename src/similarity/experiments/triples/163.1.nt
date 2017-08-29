@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Medical_professionals_e9104c15-8e07-4c96-90c4-2c79c7ef4fb6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Medical_professionals> .
+<http://framebase.org/ns/fi-Medical_professionals_e9104c15-8e07-4c96-90c4-2c79c7ef4fb6> <http://framebase.org/ns/fe-Professional> <http://wordnet-rdf.princeton.edu/wn31/10040615-n> .
+<http://framebase.org/ns/fi-Medical_specialties_47aab69d-107d-483a-8827-7f93caf39eb4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Medical_specialties> .
+<http://framebase.org/ns/fi-Medical_specialties_47aab69d-107d-483a-8827-7f93caf39eb4> <http://framebase.org/ns/fe-Specialty> <http://wordnet-rdf.princeton.edu/wn31/06052606-n> .

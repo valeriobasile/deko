@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Shapes_e2a12845-845d-4629-96ef-1e7c5861edaf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Shapes> .
+<http://framebase.org/ns/fi-Shapes_e2a12845-845d-4629-96ef-1e7c5861edaf> <http://framebase.org/ns/fe-Shape> <http://wordnet-rdf.princeton.edu/wn31/02781674-n> .
+<http://framebase.org/ns/fi-Existence_03e1d0bb-249c-4dc1-b160-70851360cc22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Existence> .
+<http://framebase.org/ns/fi-Existence_03e1d0bb-249c-4dc1-b160-70851360cc22> <http://framebase.org/ns/fe-Entity> <http://wordnet-rdf.princeton.edu/wn31/02781674-n> .
+<http://framebase.org/ns/fi-Kinship_193130cb-1246-455d-9f8c-8d0c7df06418> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Kinship> .
+<http://framebase.org/ns/fi-Kinship_193130cb-1246-455d-9f8c-8d0c7df06418> <http://framebase.org/ns/fe-Ego> <http://wordnet-rdf.princeton.edu/wn31/02781674-n> .
+<http://framebase.org/ns/fi-Kinship_193130cb-1246-455d-9f8c-8d0c7df06418> <http://framebase.org/ns/fe-Alter> <http://wordnet-rdf.princeton.edu/wn31/09937051-n> .

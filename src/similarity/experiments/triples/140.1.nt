@@ -1,0 +1,6 @@
+<http://framebase.org/ns/fi-Emotion_directed_2c1f1c9a-c9a3-4991-bf1f-a088d01f617a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Emotion_directed> .
+<http://framebase.org/ns/fi-Emotion_directed_2c1f1c9a-c9a3-4991-bf1f-a088d01f617a> <http://framebase.org/ns/fe-Experiencer> <http://wordnet-rdf.princeton.edu/wn31/10807146-n> .
+<http://framebase.org/ns/fi-Wearing_2026f02a-47ba-4d1e-9e6a-14b3dd21ef73> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Wearing> .
+<http://framebase.org/ns/fi-Wearing_2026f02a-47ba-4d1e-9e6a-14b3dd21ef73> <http://framebase.org/ns/fe-Wearer> <http://wordnet-rdf.princeton.edu/wn31/10807146-n> .
+<http://framebase.org/ns/fi-People_23f02ef4-b0eb-43ac-b385-3f7a2dffbf5b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_23f02ef4-b0eb-43ac-b385-3f7a2dffbf5b> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10807146-n> .

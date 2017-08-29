@@ -1,0 +1,2 @@
+<http://framebase.org/ns/fi-Leadership_d97a072b-04cc-45d4-90a9-887892473db2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Leadership> .
+<http://framebase.org/ns/fi-Leadership_d97a072b-04cc-45d4-90a9-887892473db2> <http://framebase.org/ns/fe-Governed> <http://wordnet-rdf.princeton.edu/wn31/07475503-n> .

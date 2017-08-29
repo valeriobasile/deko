@@ -1,0 +1,2 @@
+<http://framebase.org/ns/fi-Intoxicants_7bb2b8c7-db79-4c22-87ee-6b0a7518ceef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Intoxicants> .
+<http://framebase.org/ns/fi-Intoxicants_7bb2b8c7-db79-4c22-87ee-6b0a7518ceef> <http://framebase.org/ns/fe-Intoxicant> <http://wordnet-rdf.princeton.edu/wn31/12122650-n> .

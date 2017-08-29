@@ -1,0 +1,2 @@
+<http://framebase.org/ns/fi-Hostile_encounter_d90137a9-5e9f-491f-a225-bd38af06e359> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Hostile_encounter> .
+<http://framebase.org/ns/fi-Hostile_encounter_d90137a9-5e9f-491f-a225-bd38af06e359> <http://framebase.org/ns/fe-Time> <http://wordnet-rdf.princeton.edu/wn31/00431591-n> .

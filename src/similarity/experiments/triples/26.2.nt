@@ -1,0 +1,2 @@
+<http://framebase.org/ns/fi-Performers_and_roles_6fcbefc4-bca9-494d-8476-b1766c60ccbc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Performers_and_roles> .
+<http://framebase.org/ns/fi-Performers_and_roles_6fcbefc4-bca9-494d-8476-b1766c60ccbc> <http://framebase.org/ns/fe-Role> <http://wordnet-rdf.princeton.edu/wn31/02086723-n> .

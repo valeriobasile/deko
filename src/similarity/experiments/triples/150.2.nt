@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Roadways_b979f86f-c9bb-4e56-9b65-671bf6740634> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Roadways> .
+<http://framebase.org/ns/fi-Roadways_b979f86f-c9bb-4e56-9b65-671bf6740634> <http://framebase.org/ns/fe-Roadway> <http://wordnet-rdf.princeton.edu/wn31/04222469-n> .
+<http://framebase.org/ns/fi-People_by_age_c33ee470-cb94-4029-8344-95d6aed2c181> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People_by_age> .
+<http://framebase.org/ns/fi-People_by_age_c33ee470-cb94-4029-8344-95d6aed2c181> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/09890332-n> .
+<http://framebase.org/ns/fi-Leadership_c1f90b4c-d77b-442a-8d09-d33ebeee3a90> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Leadership> .
+<http://framebase.org/ns/fi-Leadership_c1f90b4c-d77b-442a-8d09-d33ebeee3a90> <http://framebase.org/ns/fe-Leader> <http://wordnet-rdf.princeton.edu/wn31/04222469-n> .
+<http://framebase.org/ns/fi-Leadership_c1f90b4c-d77b-442a-8d09-d33ebeee3a90> <http://framebase.org/ns/fe-Governed> <http://wordnet-rdf.princeton.edu/wn31/09890332-n> .

@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Intentionally_act_219db1a2-0c90-410f-9797-9a8fca6fc754> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Intentionally_act> .
+<http://framebase.org/ns/fi-Intentionally_act_219db1a2-0c90-410f-9797-9a8fca6fc754> <http://framebase.org/ns/fe-Agent> <http://wordnet-rdf.princeton.edu/wn31/06337790-n> .
+<http://framebase.org/ns/fi-Intentionally_act_219db1a2-0c90-410f-9797-9a8fca6fc754> <http://framebase.org/ns/fe-Act> <http://wordnet-rdf.princeton.edu/wn31/00015078-r> .
+<http://framebase.org/ns/fi-People_e0453d84-86b8-49ab-9b5b-f0de00e99038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_e0453d84-86b8-49ab-9b5b-f0de00e99038> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/06337790-n> .
+<http://framebase.org/ns/fi-Degree_f5defb63-7b31-459a-a05b-3af2f8db5580> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Degree> .
+<http://framebase.org/ns/fi-Degree_f5defb63-7b31-459a-a05b-3af2f8db5580> <http://framebase.org/ns/fe-Gradable_attribute> <http://wordnet-rdf.princeton.edu/wn31/00015078-r> .

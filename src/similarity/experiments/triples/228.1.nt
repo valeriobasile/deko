@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Type_a14c9eec-872d-4068-9ea4-cee2238bd30b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Type> .
+<http://framebase.org/ns/fi-Type_a14c9eec-872d-4068-9ea4-cee2238bd30b> <http://framebase.org/ns/fe-Subtype> <http://wordnet-rdf.princeton.edu/wn31/07473244-n> .
+<http://framebase.org/ns/fi-Motion_10f2a3ff-1c67-4261-9647-03b21fc61151> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Motion> .
+<http://framebase.org/ns/fi-Motion_10f2a3ff-1c67-4261-9647-03b21fc61151> <http://framebase.org/ns/fe-Theme> <http://wordnet-rdf.princeton.edu/wn31/10055155-n> .

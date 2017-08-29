@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Locale_by_use_db02c3db-8a66-4e7c-8421-7e41a90632fa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Locale_by_use> .
+<http://framebase.org/ns/fi-Locale_by_use_db02c3db-8a66-4e7c-8421-7e41a90632fa> <http://framebase.org/ns/fe-Locale> <http://wordnet-rdf.princeton.edu/wn31/08293641-n> .
+<http://framebase.org/ns/fi-People_by_age_a8d2596b-b7c6-460c-ad10-89696251dddd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People_by_age> .
+<http://framebase.org/ns/fi-People_by_age_a8d2596b-b7c6-460c-ad10-89696251dddd> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/09890332-n> .
+<http://framebase.org/ns/fi-Taking_df0068b2-94cc-4a5e-a0ce-e672fd4bad85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Taking> .
+<http://framebase.org/ns/fi-Taking_df0068b2-94cc-4a5e-a0ce-e672fd4bad85> <http://framebase.org/ns/fe-Theme> <http://wordnet-rdf.princeton.edu/wn31/07211681-n> .
+<http://framebase.org/ns/fi-Taking_df0068b2-94cc-4a5e-a0ce-e672fd4bad85> <http://framebase.org/ns/fe-Agent> <http://wordnet-rdf.princeton.edu/wn31/08293641-n> .

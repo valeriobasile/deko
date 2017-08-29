@@ -1,0 +1,6 @@
+<http://framebase.org/ns/fi-Gizmo_e66157ec-3731-498f-97ba-b116f896fa36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Gizmo> .
+<http://framebase.org/ns/fi-Gizmo_e66157ec-3731-498f-97ba-b116f896fa36> <http://framebase.org/ns/fe-Gizmo> <http://wordnet-rdf.princeton.edu/wn31/09784701-n> .
+<http://framebase.org/ns/fi-Killing_5bcad2e8-736a-42f9-a79b-6f67920da654> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Killing> .
+<http://framebase.org/ns/fi-Killing_5bcad2e8-736a-42f9-a79b-6f67920da654> <http://framebase.org/ns/fe-Killer> <http://wordnet-rdf.princeton.edu/wn31/09784701-n> .
+<http://framebase.org/ns/fi-Finish_competition_241da61a-f988-4637-9374-f265eb836daf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Finish_competition> .
+<http://framebase.org/ns/fi-Finish_competition_241da61a-f988-4637-9374-f265eb836daf> <http://framebase.org/ns/fe-Competitor> <http://wordnet-rdf.princeton.edu/wn31/09784701-n> .

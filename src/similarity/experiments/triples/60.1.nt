@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Dimension_03f44eab-2fe8-4a06-9718-808ecc858092> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Dimension> .
+<http://framebase.org/ns/fi-Dimension_03f44eab-2fe8-4a06-9718-808ecc858092> <http://framebase.org/ns/fe-Object> <http://wordnet-rdf.princeton.edu/wn31/04313985-n> .
+<http://framebase.org/ns/fi-Leadership_91af239e-dfb1-4c6a-a980-5cc1d9bcaab9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Leadership> .
+<http://framebase.org/ns/fi-Leadership_91af239e-dfb1-4c6a-a980-5cc1d9bcaab9> <http://framebase.org/ns/fe-Leader> <http://wordnet-rdf.princeton.edu/wn31/10182373-n> .

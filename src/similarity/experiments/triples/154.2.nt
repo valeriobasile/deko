@@ -1,0 +1,2 @@
+<http://framebase.org/ns/fi-Roadways_229f70b6-67ce-465e-9cc8-70b269fa350a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Roadways> .
+<http://framebase.org/ns/fi-Roadways_229f70b6-67ce-465e-9cc8-70b269fa350a> <http://framebase.org/ns/fe-Roadway> <http://wordnet-rdf.princeton.edu/wn31/04342347-n> .

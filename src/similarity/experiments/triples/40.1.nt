@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Communication_manner_66b27d49-814c-4aa1-a60d-ba57d4e236ea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Communication_manner> .
+<http://framebase.org/ns/fi-Communication_manner_66b27d49-814c-4aa1-a60d-ba57d4e236ea> <http://framebase.org/ns/fe-Speaker> <http://wordnet-rdf.princeton.edu/wn31/08208917-n> .
+<http://framebase.org/ns/fi-Aggregate_1413ae96-b06c-4063-84e9-9f30687aa5aa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Aggregate> .
+<http://framebase.org/ns/fi-Aggregate_1413ae96-b06c-4063-84e9-9f30687aa5aa> <http://framebase.org/ns/fe-Aggregate> <http://wordnet-rdf.princeton.edu/wn31/08208917-n> .
+<http://framebase.org/ns/fi-Aggregate_bb41fc07-c841-40b2-be40-c3f8c3f50b93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Aggregate> .
+<http://framebase.org/ns/fi-Aggregate_bb41fc07-c841-40b2-be40-c3f8c3f50b93> <http://framebase.org/ns/fe-Aggregate> <http://wordnet-rdf.princeton.edu/wn31/14645624-n> .
+<http://framebase.org/ns/fi-Aggregate_bb41fc07-c841-40b2-be40-c3f8c3f50b93> <http://framebase.org/ns/fe-Individuals> <http://wordnet-rdf.princeton.edu/wn31/08208917-n> .

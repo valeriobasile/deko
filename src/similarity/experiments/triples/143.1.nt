@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Cardinal_numbers_cddd5335-a072-4ac6-b3bd-4c598d654816> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Cardinal_numbers> .
+<http://framebase.org/ns/fi-Cardinal_numbers_cddd5335-a072-4ac6-b3bd-4c598d654816> <http://framebase.org/ns/fe-Entity> <http://wordnet-rdf.princeton.edu/wn31/07958392-n> .
+<http://framebase.org/ns/fi-People_cacc6c1e-c952-4d00-b7bc-ada5163a2438> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_cacc6c1e-c952-4d00-b7bc-ada5163a2438> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/07958392-n> .

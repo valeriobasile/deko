@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Roadways_62977251-d169-4054-ae7b-acd15cca04d2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Roadways> .
+<http://framebase.org/ns/fi-Roadways_62977251-d169-4054-ae7b-acd15cca04d2> <http://framebase.org/ns/fe-Roadway> <http://wordnet-rdf.princeton.edu/wn31/09252948-n> .
+<http://framebase.org/ns/fi-People_1ae0cb06-3f9b-4f53-bc17-e7a3403c3772> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_1ae0cb06-3f9b-4f53-bc17-e7a3403c3772> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10807146-n> .

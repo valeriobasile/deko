@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Architectural_part_1d553b97-3ee7-482d-aedd-f154c13087f4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Architectural_part> .
+<http://framebase.org/ns/fi-Architectural_part_1d553b97-3ee7-482d-aedd-f154c13087f4> <http://framebase.org/ns/fe-Part> <http://wordnet-rdf.princeton.edu/wn31/04554878-n> .
+<http://framebase.org/ns/fi-People_2264f564-1326-45fd-8532-ea6b34eaf8a3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_2264f564-1326-45fd-8532-ea6b34eaf8a3> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/06337790-n> .

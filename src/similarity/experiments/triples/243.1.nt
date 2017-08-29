@@ -1,0 +1,6 @@
+<http://framebase.org/ns/fi-Placing_16c926e6-a1be-42a1-97d0-655d9aa2a81c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Placing> .
+<http://framebase.org/ns/fi-Placing_16c926e6-a1be-42a1-97d0-655d9aa2a81c> <http://framebase.org/ns/fe-Theme> <http://wordnet-rdf.princeton.edu/wn31/05605902-n> .
+<http://framebase.org/ns/fi-Observable_body_parts_5948610b-0f8d-44fc-9100-a351a4a8e34b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Observable_body_parts> .
+<http://framebase.org/ns/fi-Observable_body_parts_5948610b-0f8d-44fc-9100-a351a4a8e34b> <http://framebase.org/ns/fe-Body_part> <http://wordnet-rdf.princeton.edu/wn31/05605902-n> .
+<http://framebase.org/ns/fi-People_49932e2a-c140-431b-bb0a-a63850e5cc4f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_49932e2a-c140-431b-bb0a-a63850e5cc4f> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10306910-n> .

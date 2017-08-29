@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Make_noise_0d7f2c4e-c44f-466a-ba30-1b9def6ae2b1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Make_noise> .
+<http://framebase.org/ns/fi-Make_noise_0d7f2c4e-c44f-466a-ba30-1b9def6ae2b1> <http://framebase.org/ns/fe-Sound_source> <http://wordnet-rdf.princeton.edu/wn31/01581901-n> .
+<http://framebase.org/ns/fi-Intoxicants_69d8b563-313f-45ae-bdfb-453694fe76e5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Intoxicants> .
+<http://framebase.org/ns/fi-Intoxicants_69d8b563-313f-45ae-bdfb-453694fe76e5> <http://framebase.org/ns/fe-Intoxicant> <http://wordnet-rdf.princeton.edu/wn31/12122650-n> .
+<http://framebase.org/ns/fi-Self_motion_fba626d3-0c29-4214-a7fa-64eaf5126c77> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Self_motion> .
+<http://framebase.org/ns/fi-Self_motion_fba626d3-0c29-4214-a7fa-64eaf5126c77> <http://framebase.org/ns/fe-Goal> <http://wordnet-rdf.princeton.edu/wn31/12122650-n> .
+<http://framebase.org/ns/fi-Self_motion_fba626d3-0c29-4214-a7fa-64eaf5126c77> <http://framebase.org/ns/fe-Self_mover> <http://wordnet-rdf.princeton.edu/wn31/01581901-n> .

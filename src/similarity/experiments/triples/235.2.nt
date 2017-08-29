@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Performers_and_roles_8f26c24d-8801-41c2-b879-0dfa487e7cbe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Performers_and_roles> .
+<http://framebase.org/ns/fi-Performers_and_roles_8f26c24d-8801-41c2-b879-0dfa487e7cbe> <http://framebase.org/ns/fe-Performer> <http://wordnet-rdf.princeton.edu/wn31/08094856-n> .
+<http://framebase.org/ns/fi-Kinship_2521448c-db47-408e-bbbd-4d3888b3de7f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Kinship> .
+<http://framebase.org/ns/fi-Kinship_2521448c-db47-408e-bbbd-4d3888b3de7f> <http://framebase.org/ns/fe-Relatives> <http://wordnet-rdf.princeton.edu/wn31/08094856-n> .

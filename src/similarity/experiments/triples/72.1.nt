@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Roadways_2543eb6a-648e-43ef-a437-b5e1f217629a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Roadways> .
+<http://framebase.org/ns/fi-Roadways_2543eb6a-648e-43ef-a437-b5e1f217629a> <http://framebase.org/ns/fe-Roadway> <http://wordnet-rdf.princeton.edu/wn31/00174852-n> .
+<http://framebase.org/ns/fi-Desiring_42ad3315-e851-4352-ab48-9dbace92f60c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Desiring> .
+<http://framebase.org/ns/fi-Desiring_42ad3315-e851-4352-ab48-9dbace92f60c> <http://framebase.org/ns/fe-Experiencer> <http://wordnet-rdf.princeton.edu/wn31/00174852-n> .

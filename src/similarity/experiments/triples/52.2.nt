@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Building_subparts_918bf496-0a78-4a7c-94b0-c0fde40fc7ad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Building_subparts> .
+<http://framebase.org/ns/fi-Building_subparts_918bf496-0a78-4a7c-94b0-c0fde40fc7ad> <http://framebase.org/ns/fe-Building_part> <http://wordnet-rdf.princeton.edu/wn31/00721817-n> .
+<http://framebase.org/ns/fi-People_ba66fc71-d9b5-433e-93a6-122396e6039a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_ba66fc71-d9b5-433e-93a6-122396e6039a> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10807146-n> .
+<http://framebase.org/ns/fi-Placing_900547da-8b16-4dc7-bf3c-648fcdc1cf7f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Placing> .
+<http://framebase.org/ns/fi-Placing_900547da-8b16-4dc7-bf3c-648fcdc1cf7f> <http://framebase.org/ns/fe-Theme> <http://wordnet-rdf.princeton.edu/wn31/10807146-n> .
+<http://framebase.org/ns/fi-Placing_900547da-8b16-4dc7-bf3c-648fcdc1cf7f> <http://framebase.org/ns/fe-Goal> <http://wordnet-rdf.princeton.edu/wn31/00721817-n> .

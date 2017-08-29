@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Activity_ready_state_2c2f4aec-95b1-4f92-bc58-bac4c2815c3f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Activity_ready_state> .
+<http://framebase.org/ns/fi-Activity_ready_state_2c2f4aec-95b1-4f92-bc58-bac4c2815c3f> <http://framebase.org/ns/fe-Activity> <http://wordnet-rdf.princeton.edu/wn31/00234667-r> .
+<http://framebase.org/ns/fi-Arriving_03fcc4e6-c4c5-48a5-a0a4-4ad6cebe0577> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Arriving> .
+<http://framebase.org/ns/fi-Arriving_03fcc4e6-c4c5-48a5-a0a4-4ad6cebe0577> <http://framebase.org/ns/fe-Theme> <http://wordnet-rdf.princeton.edu/wn31/03961007-n> .
+<http://framebase.org/ns/fi-Arriving_03fcc4e6-c4c5-48a5-a0a4-4ad6cebe0577> <http://framebase.org/ns/fe-Goal> <http://wordnet-rdf.princeton.edu/wn31/00234667-r> .
+<http://framebase.org/ns/fi-Vehicle_ee450d28-1d2c-4fd3-b963-e21e41a4a7a7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Vehicle> .
+<http://framebase.org/ns/fi-Vehicle_ee450d28-1d2c-4fd3-b963-e21e41a4a7a7> <http://framebase.org/ns/fe-Vehicle> <http://wordnet-rdf.princeton.edu/wn31/03961007-n> .

@@ -1,0 +1,6 @@
+<http://framebase.org/ns/fi-Agriculture_6af2d30f-cd11-4ee7-8a61-c9c631690ed7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Agriculture> .
+<http://framebase.org/ns/fi-Agriculture_6af2d30f-cd11-4ee7-8a61-c9c631690ed7> <http://framebase.org/ns/fe-Food> <http://wordnet-rdf.princeton.edu/wn31/03327044-n> .
+<http://framebase.org/ns/fi-Working_on_3299ac55-843a-424f-9ccc-41be14ccc635> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Working_on> .
+<http://framebase.org/ns/fi-Working_on_3299ac55-843a-424f-9ccc-41be14ccc635> <http://framebase.org/ns/fe-Agent> <http://wordnet-rdf.princeton.edu/wn31/10306910-n> .
+<http://framebase.org/ns/fi-People_36a8a2bf-4d0a-4f1c-ad8d-1456dbff6445> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_36a8a2bf-4d0a-4f1c-ad8d-1456dbff6445> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10306910-n> .

@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Preventing_b5751630-52b4-42cd-87c0-a59769f39e10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Preventing> .
+<http://framebase.org/ns/fi-Preventing_b5751630-52b4-42cd-87c0-a59769f39e10> <http://framebase.org/ns/fe-Event> <http://wordnet-rdf.princeton.edu/wn31/08703415-n> .
+<http://framebase.org/ns/fi-Sign_agreement_60872861-8c62-48a4-8153-b8c4c2f1e760> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Sign_agreement> .
+<http://framebase.org/ns/fi-Sign_agreement_60872861-8c62-48a4-8153-b8c4c2f1e760> <http://framebase.org/ns/fe-Agreement> <http://wordnet-rdf.princeton.edu/wn31/08703415-n> .

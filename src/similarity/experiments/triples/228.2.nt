@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Vehicle_ac760387-457c-4b92-9d09-9f0b9618265a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Vehicle> .
+<http://framebase.org/ns/fi-Vehicle_ac760387-457c-4b92-9d09-9f0b9618265a> <http://framebase.org/ns/fe-Vehicle> <http://wordnet-rdf.princeton.edu/wn31/02961779-n> .
+<http://framebase.org/ns/fi-Type_2b8eb0a9-6a31-410c-9cf9-ac5513159e3e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Type> .
+<http://framebase.org/ns/fi-Type_2b8eb0a9-6a31-410c-9cf9-ac5513159e3e> <http://framebase.org/ns/fe-Subtype> <http://wordnet-rdf.princeton.edu/wn31/07473244-n> .
+<http://framebase.org/ns/fi-Type_25069caf-7676-4897-a70a-fe1abbb45933> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Type> .
+<http://framebase.org/ns/fi-Type_25069caf-7676-4897-a70a-fe1abbb45933> <http://framebase.org/ns/fe-Category> <http://wordnet-rdf.princeton.edu/wn31/13984978-n> .
+<http://framebase.org/ns/fi-Type_25069caf-7676-4897-a70a-fe1abbb45933> <http://framebase.org/ns/fe-Subtype> <http://wordnet-rdf.princeton.edu/wn31/07473244-n> .

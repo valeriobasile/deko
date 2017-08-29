@@ -1,0 +1,2 @@
+<http://framebase.org/ns/fi-Request_0baa5b2b-7064-45c2-b7cd-6b2a6e913a8c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Request> .
+<http://framebase.org/ns/fi-Request_0baa5b2b-7064-45c2-b7cd-6b2a6e913a8c> <http://framebase.org/ns/fe-Message> <http://wordnet-rdf.princeton.edu/wn31/01210099-n> .

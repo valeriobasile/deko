@@ -1,0 +1,2 @@
+<http://framebase.org/ns/fi-Temporal_subregion_fba6156c-76a7-4f18-9000-2aee961ca569> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Temporal_subregion> .
+<http://framebase.org/ns/fi-Temporal_subregion_fba6156c-76a7-4f18-9000-2aee961ca569> <http://framebase.org/ns/fe-Sub_part> <http://wordnet-rdf.princeton.edu/wn31/00350856-n> .

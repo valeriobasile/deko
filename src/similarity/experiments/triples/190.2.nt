@@ -1,0 +1,2 @@
+<http://framebase.org/ns/fi-Personal_relationship_ada0d0c7-0f10-4ee9-8e7b-f1f8f03ce12b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Personal_relationship> .
+<http://framebase.org/ns/fi-Personal_relationship_ada0d0c7-0f10-4ee9-8e7b-f1f8f03ce12b> <http://framebase.org/ns/fe-Partner_1> <http://wordnet-rdf.princeton.edu/wn31/13765745-n> .

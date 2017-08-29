@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Communication_manner_ba170994-e707-4d5b-8987-0c734accf798> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Communication_manner> .
+<http://framebase.org/ns/fi-Communication_manner_ba170994-e707-4d5b-8987-0c734accf798> <http://framebase.org/ns/fe-Speaker> <http://wordnet-rdf.princeton.edu/wn31/14645624-n> .
+<http://framebase.org/ns/fi-Aggregate_b5411939-d271-4808-9255-70ff5388bd39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Aggregate> .
+<http://framebase.org/ns/fi-Aggregate_b5411939-d271-4808-9255-70ff5388bd39> <http://framebase.org/ns/fe-Aggregate> <http://wordnet-rdf.princeton.edu/wn31/14645624-n> .

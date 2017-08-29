@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Color_a03caab6-9403-44fd-9e32-68e36caad840> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Color> .
+<http://framebase.org/ns/fi-Color_a03caab6-9403-44fd-9e32-68e36caad840> <http://framebase.org/ns/fe-Color> <http://wordnet-rdf.princeton.edu/wn31/13348253-n> .
+<http://framebase.org/ns/fi-Color_a03caab6-9403-44fd-9e32-68e36caad840> <http://framebase.org/ns/fe-Entity> <http://wordnet-rdf.princeton.edu/wn31/10807146-n> .
+<http://framebase.org/ns/fi-Wearing_a2e28699-b982-46dd-b613-0fbf871c43ca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Wearing> .
+<http://framebase.org/ns/fi-Wearing_a2e28699-b982-46dd-b613-0fbf871c43ca> <http://framebase.org/ns/fe-Wearer> <http://wordnet-rdf.princeton.edu/wn31/10807146-n> .
+<http://framebase.org/ns/fi-People_fc4f9ddc-6ff1-4a7c-b84f-f3e661bfb5cb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_fc4f9ddc-6ff1-4a7c-b84f-f3e661bfb5cb> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10807146-n> .

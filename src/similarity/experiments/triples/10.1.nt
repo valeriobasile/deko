@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Existence_287c3c79-3b69-4c9f-8af3-8606abe36f93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Existence> .
+<http://framebase.org/ns/fi-Existence_287c3c79-3b69-4c9f-8af3-8606abe36f93> <http://framebase.org/ns/fe-Entity> <http://wordnet-rdf.princeton.edu/wn31/09306921-n> .
+<http://framebase.org/ns/fi-Biological_area_10840107-17e1-4656-85ad-f79d29a25a16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Biological_area> .
+<http://framebase.org/ns/fi-Biological_area_10840107-17e1-4656-85ad-f79d29a25a16> <http://framebase.org/ns/fe-Locale> <http://wordnet-rdf.princeton.edu/wn31/09306921-n> .

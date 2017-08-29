@@ -1,0 +1,6 @@
+<http://framebase.org/ns/fi-People_708b5c99-6dee-434e-8af2-50abdb95b7dd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_708b5c99-6dee-434e-8af2-50abdb95b7dd> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10306910-n> .
+<http://framebase.org/ns/fi-Observable_body_parts_b0b8a749-0864-4380-9a36-9004e32d5842> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Observable_body_parts> .
+<http://framebase.org/ns/fi-Observable_body_parts_b0b8a749-0864-4380-9a36-9004e32d5842> <http://framebase.org/ns/fe-Body_part> <http://wordnet-rdf.princeton.edu/wn31/03487606-n> .
+<http://framebase.org/ns/fi-Cause_change_of_position_on_a_scale_dded512b-f0cd-4544-98b7-d0ca768af211> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Cause_change_of_position_on_a_scale> .
+<http://framebase.org/ns/fi-Cause_change_of_position_on_a_scale_dded512b-f0cd-4544-98b7-d0ca768af211> <http://framebase.org/ns/fe-Agent> <http://wordnet-rdf.princeton.edu/wn31/10306910-n> .

@@ -1,0 +1,2 @@
+<http://framebase.org/ns/fi-People_ff5987d3-da10-4f80-9fb6-8aacc3834008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_ff5987d3-da10-4f80-9fb6-8aacc3834008> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10807146-n> .

@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Inclusion_e2d42aad-ab06-4c0b-bfd3-f2e4be26366d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Inclusion> .
+<http://framebase.org/ns/fi-Inclusion_e2d42aad-ab06-4c0b-bfd3-f2e4be26366d> <http://framebase.org/ns/fe-Part> <http://wordnet-rdf.princeton.edu/wn31/10182373-n> .
+<http://framebase.org/ns/fi-Inclusion_e2d42aad-ab06-4c0b-bfd3-f2e4be26366d> <http://framebase.org/ns/fe-Total> <http://wordnet-rdf.princeton.edu/wn31/10149362-n> .
+<http://framebase.org/ns/fi-People_d6820f71-4f51-47a2-b9fe-e3e310482dd8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_d6820f71-4f51-47a2-b9fe-e3e310482dd8> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10149362-n> .
+<http://framebase.org/ns/fi-Leadership_5aea2dac-70a5-4f36-861b-2f337fa08c93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Leadership> .
+<http://framebase.org/ns/fi-Leadership_5aea2dac-70a5-4f36-861b-2f337fa08c93> <http://framebase.org/ns/fe-Leader> <http://wordnet-rdf.princeton.edu/wn31/10182373-n> .

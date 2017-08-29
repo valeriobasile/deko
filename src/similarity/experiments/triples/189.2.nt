@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-People_1501db4f-60cf-4e01-8e58-4ed87f945a36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_1501db4f-60cf-4e01-8e58-4ed87f945a36> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10807146-n> .
+<http://framebase.org/ns/fi-Calendric_unit_bb19c2b7-845b-4987-bb73-a4fb65eebad8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Calendric_unit> .
+<http://framebase.org/ns/fi-Calendric_unit_bb19c2b7-845b-4987-bb73-a4fb65eebad8> <http://framebase.org/ns/fe-Unit> <http://wordnet-rdf.princeton.edu/wn31/15262047-n> .
+<http://framebase.org/ns/fi-Experiencer_focus_58651176-79c5-491c-9387-fe4b676264b6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Experiencer_focus> .
+<http://framebase.org/ns/fi-Experiencer_focus_58651176-79c5-491c-9387-fe4b676264b6> <http://framebase.org/ns/fe-Content> <http://wordnet-rdf.princeton.edu/wn31/11545095-n> .
+<http://framebase.org/ns/fi-Experiencer_focus_58651176-79c5-491c-9387-fe4b676264b6> <http://framebase.org/ns/fe-Experiencer> <http://wordnet-rdf.princeton.edu/wn31/10807146-n> .

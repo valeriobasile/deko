@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Ingestion_7301d872-f8e1-4e63-aa5e-15aa0f60bdfc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Ingestion> .
+<http://framebase.org/ns/fi-Ingestion_7301d872-f8e1-4e63-aa5e-15aa0f60bdfc> <http://framebase.org/ns/fe-Ingestibles> <http://wordnet-rdf.princeton.edu/wn31/07590641-n> .
+<http://framebase.org/ns/fi-Placing_70e0a33d-3efd-4c3a-be89-804dd8ee3113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Placing> .
+<http://framebase.org/ns/fi-Placing_70e0a33d-3efd-4c3a-be89-804dd8ee3113> <http://framebase.org/ns/fe-Goal> <http://wordnet-rdf.princeton.edu/wn31/07590641-n> .

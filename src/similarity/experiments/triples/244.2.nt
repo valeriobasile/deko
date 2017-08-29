@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Cardinal_numbers_2047137c-61aa-4b9e-808b-456945a5191e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Cardinal_numbers> .
+<http://framebase.org/ns/fi-Cardinal_numbers_2047137c-61aa-4b9e-808b-456945a5191e> <http://framebase.org/ns/fe-Entity> <http://wordnet-rdf.princeton.edu/wn31/02086723-n> .
+<http://framebase.org/ns/fi-Cotheme_623b41a0-ff46-4270-9804-265d2237304d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Cotheme> .
+<http://framebase.org/ns/fi-Cotheme_623b41a0-ff46-4270-9804-265d2237304d> <http://framebase.org/ns/fe-Theme> <http://wordnet-rdf.princeton.edu/wn31/02086723-n> .

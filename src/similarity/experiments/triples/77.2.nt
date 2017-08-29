@@ -1,0 +1,3 @@
+<http://framebase.org/ns/fi-Placing_3c73245e-d66c-4671-8bd4-1763b4beae13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Placing> .
+<http://framebase.org/ns/fi-Placing_3c73245e-d66c-4671-8bd4-1763b4beae13> <http://framebase.org/ns/fe-Theme> <http://wordnet-rdf.princeton.edu/wn31/02086723-n> .
+<http://framebase.org/ns/fi-Placing_3c73245e-d66c-4671-8bd4-1763b4beae13> <http://framebase.org/ns/fe-Goal> <http://wordnet-rdf.princeton.edu/wn31/04305309-n> .

@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-People_54b54c13-f7d3-422c-ba78-65f6bb89d562> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_54b54c13-f7d3-422c-ba78-65f6bb89d562> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10306910-n> .
+<http://framebase.org/ns/fi-Origin_7fe5b538-782c-462c-8f30-71220fed3455> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Origin> .
+<http://framebase.org/ns/fi-Origin_7fe5b538-782c-462c-8f30-71220fed3455> <http://framebase.org/ns/fe-Entity> <http://wordnet-rdf.princeton.edu/wn31/00429255-n> .
+<http://framebase.org/ns/fi-Perception_active_2571caa9-513a-437c-8b7d-240820c7a419> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Perception_active> .
+<http://framebase.org/ns/fi-Perception_active_2571caa9-513a-437c-8b7d-240820c7a419> <http://framebase.org/ns/fe-Perceiver_agentive> <http://wordnet-rdf.princeton.edu/wn31/10306910-n> .
+<http://framebase.org/ns/fi-Perception_active_2571caa9-513a-437c-8b7d-240820c7a419> <http://framebase.org/ns/fe-Phenomenon> <http://wordnet-rdf.princeton.edu/wn31/00429255-n> .

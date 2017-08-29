@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Kinship_8bb75016-89be-48e6-9b7f-f5f2257e55c0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Kinship> .
+<http://framebase.org/ns/fi-Kinship_8bb75016-89be-48e6-9b7f-f5f2257e55c0> <http://framebase.org/ns/fe-Alter> <http://wordnet-rdf.princeton.edu/wn31/09895920-n> .
+<http://framebase.org/ns/fi-Accoutrements_e3f7da35-9d6c-44a7-843e-3a7a9e4ad9a6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Accoutrements> .
+<http://framebase.org/ns/fi-Accoutrements_e3f7da35-9d6c-44a7-843e-3a7a9e4ad9a6> <http://framebase.org/ns/fe-Accoutrement> <http://wordnet-rdf.princeton.edu/wn31/08273889-n> .

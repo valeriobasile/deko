@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Arriving_7c5d106d-5882-4f4f-979c-039c41ae98cf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Arriving> .
+<http://framebase.org/ns/fi-Arriving_7c5d106d-5882-4f4f-979c-039c41ae98cf> <http://framebase.org/ns/fe-Theme> <http://wordnet-rdf.princeton.edu/wn31/07958392-n> .
+<http://framebase.org/ns/fi-Arriving_7c5d106d-5882-4f4f-979c-039c41ae98cf> <http://framebase.org/ns/fe-Goal> <http://wordnet-rdf.princeton.edu/wn31/03961007-n> .
+<http://framebase.org/ns/fi-Vehicle_be5f41e5-1357-4330-bcaf-bbc1ecd3d8ce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Vehicle> .
+<http://framebase.org/ns/fi-Vehicle_be5f41e5-1357-4330-bcaf-bbc1ecd3d8ce> <http://framebase.org/ns/fe-Vehicle> <http://wordnet-rdf.princeton.edu/wn31/03961007-n> .
+<http://framebase.org/ns/fi-People_43b797f4-1a83-491b-99bd-2cd25eb32f7d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_43b797f4-1a83-491b-99bd-2cd25eb32f7d> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/07958392-n> .

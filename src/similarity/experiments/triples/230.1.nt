@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Possession_076767ce-eff2-46da-b971-832fc2d25634> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Possession> .
+<http://framebase.org/ns/fi-Possession_076767ce-eff2-46da-b971-832fc2d25634> <http://framebase.org/ns/fe-Possession> <http://wordnet-rdf.princeton.edu/wn31/01171451-n> .
+<http://framebase.org/ns/fi-Possession_076767ce-eff2-46da-b971-832fc2d25634> <http://framebase.org/ns/fe-Owner> <http://wordnet-rdf.princeton.edu/wn31/14645624-n> .
+<http://framebase.org/ns/fi-Aggregate_6553a392-3d37-4409-aa45-c9e0eef4fd51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Aggregate> .
+<http://framebase.org/ns/fi-Aggregate_6553a392-3d37-4409-aa45-c9e0eef4fd51> <http://framebase.org/ns/fe-Aggregate> <http://wordnet-rdf.princeton.edu/wn31/14645624-n> .
+<http://framebase.org/ns/fi-Traversing_ba4aad59-d89b-4247-8266-027e4186383f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Traversing> .
+<http://framebase.org/ns/fi-Traversing_ba4aad59-d89b-4247-8266-027e4186383f> <http://framebase.org/ns/fe-Theme> <http://wordnet-rdf.princeton.edu/wn31/01171451-n> .

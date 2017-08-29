@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Locale_by_use_37bee320-5bfe-4c0a-86fc-b83f38c01df3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Locale_by_use> .
+<http://framebase.org/ns/fi-Locale_by_use_37bee320-5bfe-4c0a-86fc-b83f38c01df3> <http://framebase.org/ns/fe-Locale> <http://wordnet-rdf.princeton.edu/wn31/03422255-n> .
+<http://framebase.org/ns/fi-Placing_a03d4cf4-311f-4fe4-835b-3fae04dc3716> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Placing> .
+<http://framebase.org/ns/fi-Placing_a03d4cf4-311f-4fe4-835b-3fae04dc3716> <http://framebase.org/ns/fe-Goal> <http://wordnet-rdf.princeton.edu/wn31/03422255-n> .
+<http://framebase.org/ns/fi-Part_orientational_6a4e0bfd-6e8e-4f6a-906c-ff60bd022bdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Part_orientational> .
+<http://framebase.org/ns/fi-Part_orientational_6a4e0bfd-6e8e-4f6a-906c-ff60bd022bdf> <http://framebase.org/ns/fe-Part> <http://wordnet-rdf.princeton.edu/wn31/03403382-n> .
+<http://framebase.org/ns/fi-Part_orientational_6a4e0bfd-6e8e-4f6a-906c-ff60bd022bdf> <http://framebase.org/ns/fe-Whole> <http://wordnet-rdf.princeton.edu/wn31/03422255-n> .

@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Shapes_11a7fc24-16d7-4e99-a44d-625f92d7298f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Shapes> .
+<http://framebase.org/ns/fi-Shapes_11a7fc24-16d7-4e99-a44d-625f92d7298f> <http://framebase.org/ns/fe-Shape> <http://wordnet-rdf.princeton.edu/wn31/02781674-n> .
+<http://framebase.org/ns/fi-Cause_harm_12c32ae7-f455-420c-a89a-00e0a9a7b511> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Cause_harm> .
+<http://framebase.org/ns/fi-Cause_harm_12c32ae7-f455-420c-a89a-00e0a9a7b511> <http://framebase.org/ns/fe-Cause> <http://wordnet-rdf.princeton.edu/wn31/09784701-n> .
+<http://framebase.org/ns/fi-Cause_harm_12c32ae7-f455-420c-a89a-00e0a9a7b511> <http://framebase.org/ns/fe-Victim> <http://wordnet-rdf.princeton.edu/wn31/02781674-n> .
+<http://framebase.org/ns/fi-Participation_183bdd93-016d-4263-98e2-61589d34e1bd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Participation> .
+<http://framebase.org/ns/fi-Participation_183bdd93-016d-4263-98e2-61589d34e1bd> <http://framebase.org/ns/fe-Event> <http://wordnet-rdf.princeton.edu/wn31/00479273-n> .

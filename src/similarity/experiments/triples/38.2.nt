@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Expressing_publicly_deb7880b-3681-4411-b9cc-4a25cfb02eef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Expressing_publicly> .
+<http://framebase.org/ns/fi-Expressing_publicly_deb7880b-3681-4411-b9cc-4a25cfb02eef> <http://framebase.org/ns/fe-Content> <http://wordnet-rdf.princeton.edu/wn31/02781674-n> .
+<http://framebase.org/ns/fi-Shapes_017b46f9-d6fb-4dce-99d0-20c1ecd607b2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Shapes> .
+<http://framebase.org/ns/fi-Shapes_017b46f9-d6fb-4dce-99d0-20c1ecd607b2> <http://framebase.org/ns/fe-Shape> <http://wordnet-rdf.princeton.edu/wn31/02781674-n> .
+<http://framebase.org/ns/fi-Traversing_8b80fb7f-1603-4eb7-854e-bb099d4d053d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Traversing> .
+<http://framebase.org/ns/fi-Traversing_8b80fb7f-1603-4eb7-854e-bb099d4d053d> <http://framebase.org/ns/fe-Theme> <http://wordnet-rdf.princeton.edu/wn31/09784701-n> .
+<http://framebase.org/ns/fi-Traversing_8b80fb7f-1603-4eb7-854e-bb099d4d053d> <http://framebase.org/ns/fe-Goal> <http://wordnet-rdf.princeton.edu/wn31/02781674-n> .

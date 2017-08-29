@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Substance_ef3e18e0-b68b-46ed-b0c0-0f5f7828d4e0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Substance> .
+<http://framebase.org/ns/fi-Substance_ef3e18e0-b68b-46ed-b0c0-0f5f7828d4e0> <http://framebase.org/ns/fe-Substance> <http://wordnet-rdf.princeton.edu/wn31/14879875-n> .
+<http://framebase.org/ns/fi-People_6e2c2391-c208-459d-8be1-2cd515cf2c9e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_6e2c2391-c208-459d-8be1-2cd515cf2c9e> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/07958392-n> .
+<http://framebase.org/ns/fi-Aggregate_5a9501b0-3298-4158-a083-a132d1894b95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Aggregate> .
+<http://framebase.org/ns/fi-Aggregate_5a9501b0-3298-4158-a083-a132d1894b95> <http://framebase.org/ns/fe-Aggregate> <http://wordnet-rdf.princeton.edu/wn31/14645624-n> .
+<http://framebase.org/ns/fi-Aggregate_5a9501b0-3298-4158-a083-a132d1894b95> <http://framebase.org/ns/fe-Individuals> <http://wordnet-rdf.princeton.edu/wn31/07958392-n> .

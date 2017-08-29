@@ -1,0 +1,6 @@
+<http://framebase.org/ns/fi-Judicial_body_6572b3f5-0a81-466b-8425-21db729a01d5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Judicial_body> .
+<http://framebase.org/ns/fi-Judicial_body_6572b3f5-0a81-466b-8425-21db729a01d5> <http://framebase.org/ns/fe-Judicial_body> <http://wordnet-rdf.princeton.edu/wn31/08346380-n> .
+<http://framebase.org/ns/fi-Self_motion_71baf758-ae60-46ae-abcd-2f36e857a8e6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Self_motion> .
+<http://framebase.org/ns/fi-Self_motion_71baf758-ae60-46ae-abcd-2f36e857a8e6> <http://framebase.org/ns/fe-Self_mover> <http://wordnet-rdf.princeton.edu/wn31/10172934-n> .
+<http://framebase.org/ns/fi-People_2c20dece-05e4-401e-b3b9-cd0123fbe2c3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_2c20dece-05e4-401e-b3b9-cd0123fbe2c3> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10172934-n> .

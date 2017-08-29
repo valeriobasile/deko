@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Containing_feb14ce3-4129-48cd-8578-8688fd226356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Containing> .
+<http://framebase.org/ns/fi-Containing_feb14ce3-4129-48cd-8578-8688fd226356> <http://framebase.org/ns/fe-Container> <http://wordnet-rdf.princeton.edu/wn31/06337790-n> .
+<http://framebase.org/ns/fi-Containing_feb14ce3-4129-48cd-8578-8688fd226356> <http://framebase.org/ns/fe-Contents> <http://wordnet-rdf.princeton.edu/wn31/04514450-n> .
+<http://framebase.org/ns/fi-People_fcbc06a4-fa40-430e-8592-4b47aa147f11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_fcbc06a4-fa40-430e-8592-4b47aa147f11> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/06337790-n> .
+<http://framebase.org/ns/fi-Cardinal_numbers_d9272f64-f595-4839-94ca-9ea283ccf3d0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Cardinal_numbers> .
+<http://framebase.org/ns/fi-Cardinal_numbers_d9272f64-f595-4839-94ca-9ea283ccf3d0> <http://framebase.org/ns/fe-Entity> <http://wordnet-rdf.princeton.edu/wn31/06337790-n> .

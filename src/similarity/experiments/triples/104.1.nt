@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Clothing_3551f60c-a167-49c0-992c-f640b539ba46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Clothing> .
+<http://framebase.org/ns/fi-Clothing_3551f60c-a167-49c0-992c-f640b539ba46> <http://framebase.org/ns/fe-Garment> <http://wordnet-rdf.princeton.edu/wn31/04204434-n> .
+<http://framebase.org/ns/fi-Inclusion_7d6ba7a4-c540-4881-87cd-3ab3cd3140a7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Inclusion> .
+<http://framebase.org/ns/fi-Inclusion_7d6ba7a4-c540-4881-87cd-3ab3cd3140a7> <http://framebase.org/ns/fe-Part> <http://wordnet-rdf.princeton.edu/wn31/04204434-n> .
+<http://framebase.org/ns/fi-Inclusion_7d6ba7a4-c540-4881-87cd-3ab3cd3140a7> <http://framebase.org/ns/fe-Total> <http://wordnet-rdf.princeton.edu/wn31/10306910-n> .
+<http://framebase.org/ns/fi-People_96dff0d0-fd8e-4011-802b-d77472b0eaee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_96dff0d0-fd8e-4011-802b-d77472b0eaee> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10306910-n> .

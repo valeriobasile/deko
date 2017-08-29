@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Self_motion_b2c0f8cd-1718-4ad5-8154-0841d013172c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Self_motion> .
+<http://framebase.org/ns/fi-Self_motion_b2c0f8cd-1718-4ad5-8154-0841d013172c> <http://framebase.org/ns/fe-Goal> <http://wordnet-rdf.princeton.edu/wn31/04209460-n> .
+<http://framebase.org/ns/fi-Roadways_a3478835-b026-42b6-9630-e242fcd0d722> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Roadways> .
+<http://framebase.org/ns/fi-Roadways_a3478835-b026-42b6-9630-e242fcd0d722> <http://framebase.org/ns/fe-Roadway> <http://wordnet-rdf.princeton.edu/wn31/04222469-n> .

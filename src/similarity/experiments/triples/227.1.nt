@@ -1,0 +1,5 @@
+<http://framebase.org/ns/fi-People_0db26fb4-a049-4f38-97da-fef9c64a8fb9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_0db26fb4-a049-4f38-97da-fef9c64a8fb9> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/07958392-n> .
+<http://framebase.org/ns/fi-Leadership_64073b14-6057-479f-9f36-c772f1ac46b9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Leadership> .
+<http://framebase.org/ns/fi-Leadership_64073b14-6057-479f-9f36-c772f1ac46b9> <http://framebase.org/ns/fe-Leader> <http://wordnet-rdf.princeton.edu/wn31/07958392-n> .
+<http://framebase.org/ns/fi-Leadership_64073b14-6057-479f-9f36-c772f1ac46b9> <http://framebase.org/ns/fe-Governed> <http://wordnet-rdf.princeton.edu/wn31/07475503-n> .

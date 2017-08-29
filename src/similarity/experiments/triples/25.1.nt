@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Posture_fd452509-2c96-4d4d-9fa1-82b3715537d3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Posture> .
+<http://framebase.org/ns/fi-Posture_fd452509-2c96-4d4d-9fa1-82b3715537d3> <http://framebase.org/ns/fe-Agent> <http://wordnet-rdf.princeton.edu/wn31/10807146-n> .
+<http://framebase.org/ns/fi-People_e236539f-dfd5-48a8-a214-256725796725> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_e236539f-dfd5-48a8-a214-256725796725> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10807146-n> .
+<http://framebase.org/ns/fi-Locative_relation_62a54396-a988-4e61-8ca3-fa3af2378da3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Locative_relation> .
+<http://framebase.org/ns/fi-Locative_relation_62a54396-a988-4e61-8ca3-fa3af2378da3> <http://framebase.org/ns/fe-Figure> <http://wordnet-rdf.princeton.edu/wn31/10807146-n> .
+<http://framebase.org/ns/fi-Locative_relation_62a54396-a988-4e61-8ca3-fa3af2378da3> <http://framebase.org/ns/fe-Ground> <http://wordnet-rdf.princeton.edu/wn31/02130460-n> .

@@ -1,0 +1,2 @@
+<http://framebase.org/ns/fi-Emotion_directed_53be8a81-353f-4cb4-9d1c-313dde2acf75> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Emotion_directed> .
+<http://framebase.org/ns/fi-Emotion_directed_53be8a81-353f-4cb4-9d1c-313dde2acf75> <http://framebase.org/ns/fe-Experiencer> <http://wordnet-rdf.princeton.edu/wn31/03432566-n> .

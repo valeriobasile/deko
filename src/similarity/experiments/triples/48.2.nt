@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Emotion_directed_40f08c7a-f4c7-4fe5-9666-9cd7236b56f3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Emotion_directed> .
+<http://framebase.org/ns/fi-Emotion_directed_40f08c7a-f4c7-4fe5-9666-9cd7236b56f3> <http://framebase.org/ns/fe-Stimulus> <http://wordnet-rdf.princeton.edu/wn31/02086723-n> .
+<http://framebase.org/ns/fi-Performers_and_roles_064e7ef0-2873-4108-8eb6-b00dbd66cb24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Performers_and_roles> .
+<http://framebase.org/ns/fi-Performers_and_roles_064e7ef0-2873-4108-8eb6-b00dbd66cb24> <http://framebase.org/ns/fe-Performance> <http://wordnet-rdf.princeton.edu/wn31/15068330-n> .

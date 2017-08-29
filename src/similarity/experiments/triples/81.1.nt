@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-People_f92ee59a-4b95-4fc5-8c18-577af03cf847> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_f92ee59a-4b95-4fc5-8c18-577af03cf847> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10172934-n> .
+<http://framebase.org/ns/fi-Placing_67056faa-f21a-4421-885c-038bdac1ee86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Placing> .
+<http://framebase.org/ns/fi-Placing_67056faa-f21a-4421-885c-038bdac1ee86> <http://framebase.org/ns/fe-Theme> <http://wordnet-rdf.princeton.edu/wn31/10172934-n> .
+<http://framebase.org/ns/fi-Placing_67056faa-f21a-4421-885c-038bdac1ee86> <http://framebase.org/ns/fe-Goal> <http://wordnet-rdf.princeton.edu/wn31/06287933-n> .
+<http://framebase.org/ns/fi-Perception_active_52bd7e48-6f4b-4648-87fa-539b0fed7128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Perception_active> .
+<http://framebase.org/ns/fi-Perception_active_52bd7e48-6f4b-4648-87fa-539b0fed7128> <http://framebase.org/ns/fe-Perceiver_agentive> <http://wordnet-rdf.princeton.edu/wn31/04263630-n> .

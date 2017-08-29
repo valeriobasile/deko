@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Intoxicants_dc381738-8f38-440d-a95c-469795a27b49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Intoxicants> .
+<http://framebase.org/ns/fi-Intoxicants_dc381738-8f38-440d-a95c-469795a27b49> <http://framebase.org/ns/fe-Intoxicant> <http://wordnet-rdf.princeton.edu/wn31/12122650-n> .
+<http://framebase.org/ns/fi-People_7527f2aa-6e7f-4be8-87ca-bad2f6cb88a0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_7527f2aa-6e7f-4be8-87ca-bad2f6cb88a0> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10149362-n> .

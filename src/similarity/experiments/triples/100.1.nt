@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Gizmo_5855ab59-2e01-4661-8b91-bff3e248fe84> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Gizmo> .
+<http://framebase.org/ns/fi-Gizmo_5855ab59-2e01-4661-8b91-bff3e248fe84> <http://framebase.org/ns/fe-Gizmo> <http://wordnet-rdf.princeton.edu/wn31/09784701-n> .
+<http://framebase.org/ns/fi-Shapes_1888dd34-2798-481e-a04b-ff12786e58ab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Shapes> .
+<http://framebase.org/ns/fi-Shapes_1888dd34-2798-481e-a04b-ff12786e58ab> <http://framebase.org/ns/fe-Shape> <http://wordnet-rdf.princeton.edu/wn31/02781674-n> .

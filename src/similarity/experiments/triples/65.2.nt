@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-People_5f8cff59-a23b-4970-8168-733667155414> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People> .
+<http://framebase.org/ns/fi-People_5f8cff59-a23b-4970-8168-733667155414> <http://framebase.org/ns/fe-Person> <http://wordnet-rdf.princeton.edu/wn31/10306910-n> .
+<http://framebase.org/ns/fi-Being_employed_8fd25edf-ba02-4c1e-8aec-6e1a3c646dab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Being_employed> .
+<http://framebase.org/ns/fi-Being_employed_8fd25edf-ba02-4c1e-8aec-6e1a3c646dab> <http://framebase.org/ns/fe-Employee> <http://wordnet-rdf.princeton.edu/wn31/10306910-n> .

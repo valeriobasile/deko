@@ -1,0 +1,6 @@
+<http://framebase.org/ns/fi-Locative_relation_2143bcc5-8814-4078-95f1-a5b2c8ea4370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Locative_relation> .
+<http://framebase.org/ns/fi-Locative_relation_2143bcc5-8814-4078-95f1-a5b2c8ea4370> <http://framebase.org/ns/fe-Figure> <http://wordnet-rdf.princeton.edu/wn31/03802912-n> .
+<http://framebase.org/ns/fi-Containers_cf355201-a974-4c80-b0bb-951098525282> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Containers> .
+<http://framebase.org/ns/fi-Containers_cf355201-a974-4c80-b0bb-951098525282> <http://framebase.org/ns/fe-Container> <http://wordnet-rdf.princeton.edu/wn31/03802912-n> .
+<http://framebase.org/ns/fi-Placing_3e0d47db-f17c-43fd-ac8d-49ea1541800c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Placing> .
+<http://framebase.org/ns/fi-Placing_3e0d47db-f17c-43fd-ac8d-49ea1541800c> <http://framebase.org/ns/fe-Goal> <http://wordnet-rdf.princeton.edu/wn31/07901198-n> .

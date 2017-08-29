@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Wearing_140589cc-8804-4428-a692-5128862243a3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Wearing> .
+<http://framebase.org/ns/fi-Wearing_140589cc-8804-4428-a692-5128862243a3> <http://framebase.org/ns/fe-Clothing> <http://wordnet-rdf.princeton.edu/wn31/04044101-n> .
+<http://framebase.org/ns/fi-Operate_vehicle_c3b4bec3-98a9-4f36-8290-437dbd77d50b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Operate_vehicle> .
+<http://framebase.org/ns/fi-Operate_vehicle_c3b4bec3-98a9-4f36-8290-437dbd77d50b> <http://framebase.org/ns/fe-Vehicle> <http://wordnet-rdf.princeton.edu/wn31/04044101-n> .

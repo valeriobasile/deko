@@ -1,0 +1,5 @@
+<http://framebase.org/ns/fi-Natural_features_27fe9d60-19d7-4f29-ad2b-0c30496ae6ce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Natural_features> .
+<http://framebase.org/ns/fi-Natural_features_27fe9d60-19d7-4f29-ad2b-0c30496ae6ce> <http://framebase.org/ns/fe-Locale> <http://wordnet-rdf.princeton.edu/wn31/13799183-n> .
+<http://framebase.org/ns/fi-Part_orientational_9622ea06-bb73-441f-9cfc-3d1152b8df8f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Part_orientational> .
+<http://framebase.org/ns/fi-Part_orientational_9622ea06-bb73-441f-9cfc-3d1152b8df8f> <http://framebase.org/ns/fe-Part> <http://wordnet-rdf.princeton.edu/wn31/11480887-n> .
+<http://framebase.org/ns/fi-Part_orientational_9622ea06-bb73-441f-9cfc-3d1152b8df8f> <http://framebase.org/ns/fe-Whole> <http://wordnet-rdf.princeton.edu/wn31/15194295-n> .

@@ -1,0 +1,7 @@
+<http://framebase.org/ns/fi-Experiencer_focus_0496a15d-1f06-4a37-835e-40305de6efad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Experiencer_focus> .
+<http://framebase.org/ns/fi-Experiencer_focus_0496a15d-1f06-4a37-835e-40305de6efad> <http://framebase.org/ns/fe-Content> <http://wordnet-rdf.princeton.edu/wn31/01964770-v> .
+<http://framebase.org/ns/fi-Experiencer_focus_0496a15d-1f06-4a37-835e-40305de6efad> <http://framebase.org/ns/fe-Experiencer> <http://wordnet-rdf.princeton.edu/wn31/09937051-n> .
+<http://framebase.org/ns/fi-Self_motion_8dbf1f26-30fe-4976-aa75-0c50b841b962> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Self_motion> .
+<http://framebase.org/ns/fi-Self_motion_8dbf1f26-30fe-4976-aa75-0c50b841b962> <http://framebase.org/ns/fe-Self_mover> <http://wordnet-rdf.princeton.edu/wn31/09937051-n> .
+<http://framebase.org/ns/fi-Kinship_eda15470-8d55-4f01-a183-4b0330e0eb9e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Kinship> .
+<http://framebase.org/ns/fi-Kinship_eda15470-8d55-4f01-a183-4b0330e0eb9e> <http://framebase.org/ns/fe-Alter> <http://wordnet-rdf.princeton.edu/wn31/09937051-n> .

@@ -1,0 +1,6 @@
+<http://framebase.org/ns/fi-Part_inner_outer_523b33e5-1b6e-4025-a3cc-a861faf05b8e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Part_inner_outer> .
+<http://framebase.org/ns/fi-Part_inner_outer_523b33e5-1b6e-4025-a3cc-a861faf05b8e> <http://framebase.org/ns/fe-Part> <http://wordnet-rdf.princeton.edu/wn31/08540894-n> .
+<http://framebase.org/ns/fi-Part_inner_outer_523b33e5-1b6e-4025-a3cc-a861faf05b8e> <http://framebase.org/ns/fe-Whole> <http://wordnet-rdf.princeton.edu/wn31/00456623-n> .
+<http://framebase.org/ns/fi-Participation_70a6a640-376e-4388-8596-61f49212e00c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Participation> .
+<http://framebase.org/ns/fi-Participation_70a6a640-376e-4388-8596-61f49212e00c> <http://framebase.org/ns/fe-Participants> <http://wordnet-rdf.princeton.edu/wn31/00483309-n> .
+<http://framebase.org/ns/fi-Participation_70a6a640-376e-4388-8596-61f49212e00c> <http://framebase.org/ns/fe-Event> <http://wordnet-rdf.princeton.edu/wn31/00456623-n> .

@@ -1,0 +1,4 @@
+<http://framebase.org/ns/fi-Emotion_directed_abdb211c-7af7-4bdd-863c-6bbc5f209f8b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Emotion_directed> .
+<http://framebase.org/ns/fi-Emotion_directed_abdb211c-7af7-4bdd-863c-6bbc5f209f8b> <http://framebase.org/ns/fe-Stimulus> <http://wordnet-rdf.princeton.edu/wn31/08185877-n> .
+<http://framebase.org/ns/fi-Political_locales_c79a070c-040f-4fc8-b96a-93901f667645> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Political_locales> .
+<http://framebase.org/ns/fi-Political_locales_c79a070c-040f-4fc8-b96a-93901f667645> <http://framebase.org/ns/fe-Locale> <http://wordnet-rdf.princeton.edu/wn31/08185877-n> .
