@@ -55,8 +55,8 @@ def save_json(data, json_path, sort_keys=True):
 if __name__ == '__main__':
     start_time = datetime.now()
     triples_path = join(dirname(__file__), 'input/')
-    clusters_path = join(dirname(__file__), 'output_massivity/ehow_clusters_03.json')
-    clusters_verbalize_path = join(dirname(__file__), 'output_massivity/ehow_clusters_verbalize_03.json')
+    clusters_path = join(dirname(__file__), 'output/clusters.json')
+    clusters_verbalize_path = join(dirname(__file__), 'output/clusters_verbalize.json')
 
     logging.info('Reading dataset')
     frame_instances = read_dataset(triples_path, delete_repetition=False)
