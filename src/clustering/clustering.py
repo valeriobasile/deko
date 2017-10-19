@@ -238,12 +238,12 @@ if __name__ == '__main__':
     global cache_synsets
 
     triples_path = join(dirname(__file__), 'input/')
-    repeated_instances_path = join(dirname(__file__), 'output/ehow_repeated_instances.json')
+    repeated_instances_path = join(dirname(__file__), 'output/repeated_instances.json')
     cache_frames_path = join(dirname(__file__), 'output/cache_frames.json')
     cache_synsets_path = join(dirname(__file__), 'output/cache_synsets.json')
-    mst_path = join(dirname(__file__), 'output/ehow_mst')
-    clusters_path = join(dirname(__file__), 'output/ehow_clusters')
-    clusters_json_path = join(dirname(__file__), 'output/ehow_clusters.json')
+    mst_path = join(dirname(__file__), 'output/mst')
+    clusters_path = join(dirname(__file__), 'output/clusters')
+    clusters_json_path = join(dirname(__file__), 'output/clusters.json')
 
     logging.info('Reading dataset')
     frame_instances = read_dataset(triples_path, repeated_instances_path)
