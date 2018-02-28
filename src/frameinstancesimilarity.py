@@ -84,7 +84,7 @@ def nasari_similarity(e1, e2):
         return 1.0
     bnid1 = "bn:{0}".format(e1[1:])
     bnid2 = "bn:{0}".format(e2[1:])
-    sql = "select * from vector where babelnetid = '{0}' or babelnetid = '{1}';".format(db.escape_string(bnid1), db.escape_string(bnid2))
+    sql = "select * from vector where bnid = '{0}' or bnid = '{1}';".format(db.escape_string(bnid1), db.escape_string(bnid2))
     cur.execute(sql)
     rows = cur.fetchall()
     # check that there are two rows
@@ -110,7 +110,7 @@ def cr_occ(frame1, frame2):
     Pennacchiotti and Wirth (ACL2009), described in Sec. 4.2.1 of the paper.
     Input: two frame type names, e.g., Commerce_buy/Commerce_sell.
     Output: a real number (Pointwise-mutual information)."""
-    
+
     lus1 = lexical_units[frame1]
     lus2 = lexical_units[frame2]
 
