@@ -6,7 +6,7 @@ functools32==3.2.3.post2
 goose-extractor==1.0.25
 html5lib==0.999999999
 jieba==0.38
-lxml==4.6.2
+lxml==4.6.3
 matplotlib==2.0.0
 mechanize==0.3.3
 nltk==3.4.5
